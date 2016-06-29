@@ -17,14 +17,56 @@
   .navbar-list
     padding-left: 0
     padding-top: 2%
-    .navbar-menuItem
-      color: #FFFFFF
+    @media screen and (max-width: 768px)
       &:hover
-        color: #00cfff
+        color: $blue-dark
+    .navbar-menuItem
+      color: $white
+      font-family: RalewaySemiBold
+      font-size: 12px
+      @media screen and (max-width: 768px)
+        color: $gray-light-three
+        &:hover
+          color: $blue-dark
     .nav-current
-      color: #00cfff
+      color: $white
 
-  .menuItem-mobile
-    color: #FFFFFF
+
+  .item-mobile
+    display: inline-block
+    margin-top: 30px
+    margin-left: 11px
+    .menuItem-mobile
+      color: $white
+      font-family: RalewaySemiBold
+      font-size: 12px
+
+  .navbar-toggle
+    margin-top: 22px
+    margin-bottom: 22px
+    &:focus
+      background-color: $yellow
+      border: none
     &:hover
-      color: #00cfff
+      background-color: $yellow
+    .icon-bar
+      width: 34px
+      height: 4px
+      border-radius: 0
+      background-color: $blue-dark
+  .navbar-toggle.collapsed
+    border: none
+    &:hover
+      background-color: $yellow
+    &:focus
+      background-color: $yellow
+      border: none
+    .icon-bar
+      background-color: $blue-dark
+      &:focus
+        width: 34px
+        height: 4px
+  .navbar-collapse.collapse.in
+    background-color: $gray-light-one
+    margin-right: -30px
+    margin-left: -59px
