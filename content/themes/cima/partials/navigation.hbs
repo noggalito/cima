@@ -16,7 +16,9 @@
         <div class="collapse navbar-collapse" id="navbar-cima-collapse">
           <ul class="nav navbar-nav navbar-list">
             {{#foreach navigation}}
-              <li class="{{#if current}} nav-current{{/if}}"><a class="navbar-menuItem" href="{{url absolute="true"}}">{{label}}</a></li>
+              <li class="{{#if current}} nav-current{{/if}}">
+                <a class="navbar-menuItem" href="{{url absolute="true"}}">{{label}}</a>
+              </li>
             {{/foreach}}
           </ul>
         </div>
