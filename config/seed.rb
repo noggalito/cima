@@ -42,6 +42,7 @@ class Seed
 
   def klasses
     [
+      PostsSeed,
       SettingsSeed
     ]
   end
