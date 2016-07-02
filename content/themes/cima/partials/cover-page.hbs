@@ -5,6 +5,9 @@
     <img src="{{asset 'img/logo-temp.png'}}"
       class="img-responsive"/>
   </div>
-  <img src="{{asset 'img/cover.jpg'}}"
-    class="img-responsive"/>
+  {{#is "index"}}
+    {{> cover-carousel}}
+  {{else}}
+    {{> cover-image}}
+  {{/is}}
 </section>

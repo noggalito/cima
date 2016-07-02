@@ -1,4 +1,8 @@
 $( document ).ready(function() {
+
+  $( ".navbar-list .nav-current .navbar-menuItem" )
+    .append("<div class='top-arrow'></div>" );
+
   if(window.matchMedia('(max-width: 768px)').matches){
     $( ".navbar-list .navbar-menuItem" ).hover(
       function() {
