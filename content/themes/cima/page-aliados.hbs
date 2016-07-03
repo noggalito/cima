@@ -9,21 +9,26 @@
           <div class="common-categories-content col-xs-6 col-md-7">
             <div class="title">{{title}}</div>
             <div class="content">{{content}}</div>
+            <div class="expand collapsed" data-toggle="collapse" data-target="#category-{{@number}}">
+               <img class="img-responsive"/>
+            </div>
           </div>
           <div class="common-categories-image col-xs-6 col-md-5">
             <img src="{{image}}"
               class="img-responsive"/>
           </div>
         </div>
-        <div class="common-categories-body row">
+        <div class="common-categories-body allies-toggable-content row collapse" id="category-{{@number}}">
           {{#get "posts" filter="tag:aliados-categoria-{{slug}}" as |aliado|}}
             {{#foreach aliado}}
-              <div class="col-xs-12 col-md-4">
-                <img src="{{image}}"
-                  class="img-responsive"
-                  alt="{{title}}"/>
-                <h3>{{title}}</h3>
-                {{content}}
+              <div class="col-xs-12 col-md-4 container">
+                <figure class="allies-toggable-content-figure">
+                  <img src="{{image}}"
+                    class="img-responsive"
+                    alt="{{title}}"/>
+                  <div class="title">{{title}}</div>
+                  <div class="slogan">{{content}}</div>
+                </figure>
               </div>
             {{/foreach}}
           {{/get}}

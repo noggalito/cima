@@ -1,11 +1,11 @@
 ---
-# Page: Aliados -> Tag: Categoria
+# Aliados -> Categoria
 - hidden: false
   name: Aliados-categoria
   slug: aliados-categoria
   uuid: <%= uuid %>
 
-# Page: Aliados -> Tag: Categoria 'Conoce'
+# Aliados -> Categoria 'Conoce'
 - hidden: false
   name: Aliados-categoria-conoce
   slug: aliados-categoria-conoce
