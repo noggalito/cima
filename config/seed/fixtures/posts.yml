@@ -1,4 +1,6 @@
 ---
+
+# Page: Aliados
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>
   updated_at: <%= Time.now %>
@@ -9,3 +11,19 @@
   featured: false
   language: en_US
   status: published
+
+# Page: Aliados -> Categoria 'Conoce'
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Conoce"
+  slug: conoce
+  image: /default/imagen_01.png
+  markdown: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.
+  html: <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.</p>
+

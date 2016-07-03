@@ -1,0 +1,12 @@
+---
+# Page: Aliados -> Tag: Categoria
+- hidden: false
+  name: Aliados-categoria
+  slug: aliados-categoria
+  uuid: <%= uuid %>
+
+# Page: Aliados -> Tag: Categoria 'Conoce'
+- hidden: false
+  name: Aliados-categoria-conoce
+  slug: aliados-categoria-conoce
+  uuid: <%= uuid %>

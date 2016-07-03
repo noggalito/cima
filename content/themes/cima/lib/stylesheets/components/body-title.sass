@@ -1,6 +1,7 @@
 .body-title
   height: 5em
   display: flex
+  margin-left: 5%
   &-content
     display: table
     margin: auto auto auto 0
@@ -9,9 +10,23 @@
       border-top: 10px solid transparent
       border-left: 15px solid $blue-dark
       border-bottom: 10px solid transparent
+      @media only screen and (max-width:$device-md)
+        margin-top: 0.7em
+        border-top: 7px solid transparent
+        border-left: 12px solid $blue-dark
+        border-bottom: 7px solid transparent
+      @media only screen and (max-width:$device-sm)
+        margin-top: 0.5em
+        border-top: 5px solid transparent
+        border-left: 10px solid $blue-dark
+        border-bottom: 5px solid transparent
     .title
       margin-left: 20px
       font-size: 2.5em
       font-family: RalewayLight
       color: $blue-light
+      @media only screen and (max-width:$device-md)
+        font-size: 2em
+      @media only screen and (max-width:$device-sm)
+        font-size: 1.5em
 
