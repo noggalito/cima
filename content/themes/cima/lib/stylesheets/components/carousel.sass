@@ -1,0 +1,44 @@
+.container.carousel
+  margin-top: 64px
+  width: 100%
+  padding-left: 0
+  padding-right: 0
+
+  .carousel.slide
+    .carousel-inner
+      .item
+        img
+          width: 100%
+          z-index: -1
+          position: relative
+        .menu-carousel
+          position: absolute
+          margin-top: -123px
+          margin-left: 80px
+          display: inline-block
+          width: 60%
+          .text-nowrap
+            h1
+              margin-top: 0px
+              color: $white
+          .text-nowrap, & .content-wrapper
+            background-color: $black
+            opacity: 0.6
+          .content-wrapper
+            color: $white
+            margin-top: -6px
+        .carousel-controls-wrapper
+          background: $blue-dark-one
+          display: inline-block
+          .control-left, & .control-right
+            display: inline-block
+          .control-left
+            border-right: solid 1px $white
+          .carousel-control
+            position: relative
+            margin: 0 20px
+            height: 40px
+            width: 40px
+            opacity: 1.5
+            .glyphicon
+              font-size: 20px
