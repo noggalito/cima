@@ -5,7 +5,8 @@
   overflow: hidden
   height: 200px
   &-content
-    padding-left: 5%;
+    padding-left: 5%
+    padding-top: 15px
     .title
       font-family: RalewaySemiBold
       font-size: 3em
@@ -19,7 +20,7 @@
     .expand
       display: inline-block
       cursor: pointer
-      margin-top: 20px
+      margin-top: 3%
       img
         content: url("../img/icono_info_visited.png")
     .collapsed
@@ -37,3 +38,15 @@
 .common-categories-body
   width: 100%
   background-color: $gray-light-two
+  &:before
+    margin-top: -8%
+    content: ''
+    position: absolute
+    left: 11%
+    width: 0
+    height: 0
+    border-left: 10px solid transparent
+    border-right: 10px solid transparent
+    border-top: 10px solid $gray-light-three
+    clear: both
+
