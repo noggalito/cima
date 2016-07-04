@@ -10,3 +10,9 @@
   name: Aliados-categoria-conoce
   slug: aliados-categoria-conoce
   uuid: <%= uuid %>
+
+# carruselPrincipa
+- hidden: false
+  name: carousel-imagen
+  slug: carouselimagen
+  uuid: <%= uuid %>
