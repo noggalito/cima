@@ -11,3 +11,13 @@
 
   - tag_slug: aliados-categoria-conoce
     post_slug: aliado3
+
+# Carrusel -> Posts del carrusel
+  - tag_slug: carouselimagen
+    post_slug: post-carrusel-1
+
+  - tag_slug: carouselimagen
+    post_slug: post-carrusel-2
+
+  - tag_slug: carouselimagen
+    post_slug: post-carrusel-3

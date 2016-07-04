@@ -69,3 +69,47 @@
   image: /default/aliados03.png
   markdown: Slogan para Aliado 3
   html: <p>Slogan para Aliado 3</p>
+
+# CarruselPrincipal
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Carrusel1"
+  slug: post-carrusel-1
+  image: /default/carrusel1.jpg
+  markdown: contenido 1
+  html: <p>contenido 1</p>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Carrusel2"
+  slug: post-carrusel-2
+  image: /default/carrusel2.jpg
+  markdown: contenido 2
+  html: <p>contenido 2</p>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Carrusel3"
+  slug: post-carrusel-3
+  image: /default/carrusel3.jpg
+  markdown: contenido 3
+  html: <p>contenido 3</p>
