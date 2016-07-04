@@ -1,0 +1,13 @@
+<section class="cover">
+  <div class="cover-triangle">
+  </div>
+  <div class="cover-logo">
+    <img src="{{asset 'img/logo-temp.png'}}"
+      class="img-responsive"/>
+  </div>
+  {{#is "index"}}
+    {{> cover-carousel}}
+  {{else}}
+    {{> cover-image}}
+  {{/is}}
+</section>

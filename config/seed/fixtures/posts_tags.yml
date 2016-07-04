@@ -1,0 +1,13 @@
+# Aliados -> Categoria: 'Conoce'
+  - tag_slug: aliados-categoria
+    post_slug: conoce
+
+# Aliados -> Lista de aliados
+  - tag_slug: aliados-categoria-conoce
+    post_slug: aliado1
+
+  - tag_slug: aliados-categoria-conoce
+    post_slug: aliado2
+
+  - tag_slug: aliados-categoria-conoce
+    post_slug: aliado3

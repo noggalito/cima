@@ -1,0 +1,39 @@
+.common-categories
+  width: 100%
+  margin: 0px
+  background-color: $gray-light-three
+  overflow: hidden
+  height: 200px
+  &-content
+    padding-left: 5%;
+    .title
+      font-family: RalewaySemiBold
+      font-size: 3em
+      color: $blue-dark
+      @media only screen and (max-width:$device-md)
+        font-size: 2em
+      @media only screen and (max-width:$device-sm)
+        font-size: 1.5em
+    .content
+      font-family: RalewayLight
+    .expand
+      display: inline-block
+      cursor: pointer
+      margin-top: 20px
+      img
+        content: url("../img/icono_info_visited.png")
+    .collapsed
+      img
+        content: url("../img/icono_info.png")
+  &-image
+    padding: 0px
+    background-color: $gray-light-three
+    img
+      height: 200px
+      margin: 0px
+      width: 100%
+
+
+.common-categories-body
+  width: 100%
+  background-color: $gray-light-two

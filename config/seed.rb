@@ -42,7 +42,10 @@ class Seed
 
   def klasses
     [
-      SettingsSeed
+      TagsSeed,
+      PostsSeed,
+      SettingsSeed,
+      PostTagsSeed
     ]
   end
 end

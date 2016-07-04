@@ -5,17 +5,10 @@
   height: 84px
   display: inline-block
   margin-bottom: -69px
-  .triangle-topright
-    width: 29px
-    height: 0
-    border-top: 84px solid $yellow
-    border-left: 108px solid transparent
-    display: inline-block
-    overflow: hidden
-    position: absolute
-    right: 100%
+  width: 100%
+  .container-fluid
+    float: right
   .navbar-list
-    padding-left: 0
     padding-top: 2%
     @media screen and (max-width: 768px)
       &:hover
@@ -63,11 +56,11 @@
       background-color: $yellow
       border: none
     .icon-bar
-      background-color: $blue-dark
+      background-color: $white
       &:focus
         width: 34px
         height: 4px
   .navbar-collapse.collapse.in
-    background-color: $gray-light-one
+    background-color: $yellow
     margin-right: -30px
     margin-left: -59px

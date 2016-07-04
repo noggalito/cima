@@ -1,0 +1,71 @@
+---
+
+# Aliados
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: true
+  slug: aliados
+  title: Aliados
+  featured: false
+  language: en_US
+  status: published
+
+# Aliados -> Categoria 'Conoce'
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Conoce"
+  slug: conoce
+  image: /default/imagen_01.png
+  markdown: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.
+  html: <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.</p>
+
+# Aliados -> Lista de aliados
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Aliado 1"
+  slug: aliado1
+  image: /default/aliados01.png
+  markdown: Slogan para Aliado 1
+  html: <p>Slogan para Aliado 1</p>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Aliado 2"
+  slug: aliado2
+  image: /default/aliados02.png
+  markdown: Slogan para Aliado 2
+  html: <p>Slogan para Aliado 2</p>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Aliado 3"
+  slug: aliado3
+  image: /default/aliados03.png
+  markdown: Slogan para Aliado 3
+  html: <p>Slogan para Aliado 3</p>
