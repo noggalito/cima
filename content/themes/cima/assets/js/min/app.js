@@ -1,3 +1,4 @@
 $(document).ready(function(){function a(a){$(".navbar-list .nav-current .navbar-menuItem").append("<div class='"+a+"'></div>")}window.matchMedia("(max-width: 768px)").matches?(a("left-arrow"),$(".navbar-list .navbar-menuItem").hover(function(){$(this).append($("<div class='left-arrow'></div>"))},function(){$(this).find("div:last").remove()})):(a("top-arrow"),$(".navbar-list .navbar-menuItem").hover(function(){$(this).append($("<div class='top-arrow'></div>"))},function(){$(this).find("div:last").remove()}))});
+!function(n){n(document).on("ready",function(){var o=window.location.pathname;"/aliados/"===o&&n(".informative-section").css("margin-top","-4px")})}(jQuery);
 $(document).ready(function(){$(".carousel-inner .item").filter(":first").addClass("active")});
 !function(){"use strict";console.log("hello world")}();
