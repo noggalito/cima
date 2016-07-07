@@ -1,24 +1,41 @@
+.triangle-topleft
+  width: 0
+  height: 0
+  border-top: 50px solid transparent
+  border-right: 100px solid $blue-dark
+  border-bottom: 50px solid transparent
+
 .informative-section
   float: right
-  background: $blue-dark
+  width: 0px
+  height: 0px
+  border-style: inset
+  border-style: inset
+  border-width: 290px 450px 290px 0px
+  border-color: transparent $blue-dark transparent transparent
+  .information-cima
+    margin-top: -70px
   .title.section-informative, & .content-informative
+    width: 200px
+    margin-left: 200px
     color: $white
-    font-family: RalewayRegular
   .content-informative
     font-size: 10px
+    font-family: RalewayRegular
   .section-informative
-    font-size: 15px
+    font-size: 18px
+    font-family: DosisLight
   .redesSociales
+    width: 230px
+    margin-left: 200px
     .social-section
       margin-right: 0
+      margin-left: 0
       .textFooter-title
-        font-size: 10px
+        font-size: 15px
         color: $white
-        font-family: RalewayRegular
+        font-family: DosisLight
+      .col-xs-3
+        padding-left: 3px
       .thumbnail
         background-color: $blue-dark
-
-  @media screen and (min-width: $device-lg)
-    width: 500px
-  @media screen and (min-width: $device-md) and (max-width: $device-lg)
-    width: 400px

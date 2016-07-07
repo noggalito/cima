@@ -1,5 +1,6 @@
-<div class="informative-section">
-    <ul class="nav nav-pills nav-stacked">
+<div class="container-section">
+  <div class="informative-section ">
+    <div class="information-cima">
       {{#get "posts" filter="slug:informacion" as |images|}}
         {{#foreach images}}
             <div class="section">
@@ -10,7 +11,7 @@
             </div>
         {{/foreach}}
       {{/get}}
-    </ul>
+    </div>
     <div class="redesSociales">
       <div class="row social-section">
         <div class="textFooter-title col-md-3 col-sm-3 col-xs-3 ">Síguenos:</div>
@@ -31,4 +32,5 @@
         </div>
       </div>
     </div>
+  </div>
 </div>
