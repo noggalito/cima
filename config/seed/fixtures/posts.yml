@@ -113,3 +113,17 @@
   image: /default/carrusel3.jpg
   markdown: contenido 3
   html: <p>contenido 3</p>
+
+# Informacion
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Estamos en:"
+  slug: informacion
+  markdown: San Cayetano Alto-UTPL edificio FEDES<br>(593-7) 2585-700<br>(593-7) 2585-706<br>info@cima.ec
+  html: "<p>San Cayetano Alto-UTPL edificio FEDES<br>(593-7) 2585-700<br>(593-7) 2585-706<br>info@cima.ec</p>"
