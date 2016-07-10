@@ -1,0 +1,33 @@
+.main-phrase
+  height: 150px
+  width: 100%
+  text-align: center
+  padding-right: 20%
+  @media only screen and (max-width:$device-md)
+    padding-right: 25%
+  @media only screen and (max-width:$device-sm)
+    padding-right: 30%
+  &-container
+    width: 80%
+    height: 40%
+    top: 25%
+    margin: 0 auto
+    position: relative
+    font-family: NotoSerifItalic
+    font-size: 2em
+    @media only screen and (max-width:$device-md)
+      font-size: 1.8em
+      top: 15%
+    @media only screen and (max-width:$device-sm)
+      font-size: 1.2em
+      top: 5%
+    p
+      text-align: left
+      em
+        color: $blue-light
+      strong
+        color: $gray-light-four
+        font-size: 0.7em
+        &:before
+          content: "\A";
+          white-space: pre;

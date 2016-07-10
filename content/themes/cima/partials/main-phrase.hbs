@@ -1,0 +1,11 @@
+{{^is "index"}}
+  <div class="main-phrase">
+    {{#get "posts" slug="frase-principal" as |article|}}
+      {{#article}}
+        <div class="main-phrase-container">
+          {{content}}
+        </div>
+      {{/article}}
+    {{/get}}
+  </div>
+{{/is}}

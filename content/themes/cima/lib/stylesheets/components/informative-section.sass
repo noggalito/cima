@@ -1,6 +1,6 @@
 .informative-section
   position: relative
-  margin-top: -156px
+  margin-top: -156px !important
   float: right
   width: 0px
   height: 0px
@@ -10,6 +10,13 @@
   @media screen and (max-width: $device-sm)
     border-width: 215px 347px 215px 0px
     margin-top: -87px
+  @media screen and (max-width: $device-xs)
+    border-width: 215px 307px 215px 0px
+    margin-top: -87px
+
+  &-index
+    margin-top: -80px !important
+
   border-color: transparent $blue-dark transparent transparent
   .information-cima
     margin-top: -70px
@@ -19,6 +26,7 @@
     color: $white
     @media screen and (max-width: $device-sm)
       margin-left: 125px
+
   .content-informative
     font-size: 10px
     font-family: RalewayRegular
@@ -31,6 +39,9 @@
     margin-left: 143px
     @media screen and (max-width: $device-sm)
       margin-left: 125px
+    @media screen and (max-width: $device-xs)
+      margin-left: 75px
+
     .social-section
       margin-right: 0
       margin-left: 0
@@ -42,3 +53,4 @@
         padding-left: 3px
       .thumbnail
         background-color: $blue-dark
+        height: 40px

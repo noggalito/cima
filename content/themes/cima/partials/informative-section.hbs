@@ -1,5 +1,5 @@
 <div class="container-section">
-  <div class="informative-section ">
+  <div class="informative-section {{#is "index"}} informative-section-index {{/is}}">
     <div class="information-cima">
       {{#get "posts" filter="slug:informacion" as |images|}}
         {{#foreach images}}
