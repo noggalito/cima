@@ -1,6 +1,58 @@
 .logo-Contactos
   background: $gray-light-three
   form
-    padding-left: 20%
+    padding-left: 200px
+    padding-bottom: 60px
+    margin-top: 25px
+    @media screen and (max-width: $device-lg)
+      padding-left: 42px
+    @media screen and (max-width: $device-sm)
+      padding-left: 60px
+    .contacts
+      padding-top: 135px
+    img
+      height: 40px
+      @media screen and (max-width: $device-sm)
+        margin-top: -100px
+    .title-contacts
+      font-size: 26px
+      @media screen and (max-width: $device-sm)
+        margin-top: -134px
+    .content-contacts
+      padding-bottom: 20px
+    .title-contacts, & .content-contacts
+      font-family: DosisLight
+      color: $gray-light-four
     .form-group
-      width: 40%
+      width: 320px
+      @media screen and (max-width: $device-lg)
+        width: 270px
+      input
+        border-radius: 0
+        background: $gray-dark
+      input::-webkit-input-placeholder
+        color: $gray-dark-one
+      textarea
+        border-radius: 0
+        background: $gray-dark
+      textarea::-webkit-input-placeholder
+        color: $gray-dark-one
+
+    button
+      background: $yellow
+      border: none
+      border-radius: 0
+      color: $blue-dark !important
+      @media screen and (max-width: $device-lg)
+        margin-left: 195px
+      @media screen and (min-width: $device-lg)
+        margin-left: 245px
+      &:hover
+        background-color: $yellow
+      .glyphicon
+        top: 4px
+        float: right
+
+    .btn.btn-primary.disabled
+      &:hover
+        background-color: $yellow
