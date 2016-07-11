@@ -70,6 +70,136 @@
   markdown: Slogan para Aliado 3
   html: <p>Slogan para Aliado 3</p>
 
+# CIMA
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: true
+  slug: cima
+  title: CIMA
+  featured: false
+  language: en_US
+  status: published
+
+# CIMA -> Categoria 'Descripción'
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Descripción"
+  slug: descripcion
+  image: /default/imagen_01.png
+  markdown: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.
+  html: <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.</p>
+
+# CIMA -> Categoria 'Equipo'
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Equipo"
+  slug: equipo
+  image: /default/imagen_02.png
+  markdown: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.
+  html: <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.</p>
+
+# CIMA -> Lista de Equipos
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Team Name"
+  slug: equipo1
+  image: /default/equipo1.jpg
+  markdown: Describir el perfil profesional
+  html: <p>Describir el perfil profesional</p>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Team Name"
+  slug: equipo2
+  image: /default/equipo2.jpg
+  markdown: Describir el perfil profesional
+  html: <p>Describir el perfil profesional</p>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Team Name"
+  slug: equipo3
+  image: /default/equipo3.jpg
+  markdown: Describir el perfil profesional
+  html: <p>Describir el perfil profesional</p>
+
+# CIMA -> Categoria 'Experiencia'
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Experiencia"
+  slug: experiencia
+  image: /default/imagen_03.png
+  markdown: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.
+  html: <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.</p>
+
+# CIMA -> Categoria 'Responsabilidad Social'
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Responsabilidad Social"
+  slug: responsabilidad-social
+  image: /default/imagen_04.png
+  markdown: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.
+  html: <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.</p>
+
+# CIMA -> Categoria 'Trabaja con Nosotros'
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Trabaja con Nosotros"
+  slug: trabaja-con-nosotros
+  image: /default/imagen_05.png
+  markdown: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.
+  html: <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.</p>
+
 # CarruselPrincipal
 
 - uuid: <%= uuid %>
