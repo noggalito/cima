@@ -1,0 +1,29 @@
+<div class="logo-Contactos ">
+<form data-toggle="validator" role="form" >
+  {{#get "posts" filter="slug:contactos" as |contacts|}}
+    {{#contacts}}
+        <div class="contacts">
+          <img src="{{image}}">
+          <div class="title-contacts">
+            <div>{{title}}</div>
+          </div>
+          <div class="content-contacts">{{content}}</div>
+        </div>
+    {{/contacts}}
+  {{/get}}
+  <div class="form-group">
+    <input type="text" class="form-control" id="nameInput" placeholder="nombre" required>
+  </div>
+  <div class="form-group">
+    <input type="email" class="form-control" id="emailInput" placeholder="e-mail" required>
+  </div>
+  <div class="form-group">
+    <textarea class="form-control" id="mensajeTextarea" rows="3" placeholder="mensaje" required ></textarea>
+  </div>
+  <div class="help-block with-errors"></div>
+  <button type="submit" class="btn btn-primary">
+    <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+    enviar
+  </button>
+</form>
+</div>

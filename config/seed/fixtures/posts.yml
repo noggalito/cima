@@ -147,3 +147,18 @@
       <em>&lt;&lt; La innovación es lo que distingue a los líderes de los seguidores >></em>
       <strong>.- Steve Jobs</strong>
     </p>
+
+# Contactos
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Contactos"
+  slug: contactos
+  image: /default/icono.png
+  markdown: Este es el formulario de Contactos
+  html: "<p>Este es el formulario de Contactos</p>"
