@@ -1,0 +1,15 @@
+{{#get "posts" filter="tag:cima-categoria-{{slug}}" as |elementos|}}
+  {{#foreach elementos}}
+    <div class="col-xs-12 col-md-4 container">
+      <figure class="cima-toggable-content-figure">
+        <div class="image">
+          <img src="{{image}}"
+            alt="{{title}}"
+            class="img-responsive"/>
+          <div class="description">{{content}}</div>
+        </div>
+        <div class="title">{{title}}</div>
+      </figure>
+    </div>
+  {{/foreach}}
+{{/get}}

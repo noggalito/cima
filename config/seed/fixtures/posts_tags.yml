@@ -12,6 +12,36 @@
   - tag_slug: aliados-categoria-conoce
     post_slug: aliado3
 
+# CIMA -> Categoria 'Descripción'
+  - tag_slug: cima-categoria
+    post_slug: descripcion
+
+# CIMA -> Categoria 'Equipo'
+  - tag_slug: cima-categoria
+    post_slug: equipo
+
+# CIMA -> Lista de equipos
+  - tag_slug: cima-categoria-equipo
+    post_slug: equipo1
+
+  - tag_slug: cima-categoria-equipo
+    post_slug: equipo2
+
+  - tag_slug: cima-categoria-equipo
+    post_slug: equipo3
+
+# CIMA -> Categoria 'Experiencia'
+  - tag_slug: cima-categoria
+    post_slug: experiencia
+
+# CIMA -> Categoria 'Responsabilidad Social'
+  - tag_slug: cima-categoria
+    post_slug: responsabilidad-social
+
+# CIMA -> Categoria 'Trabaja con nosotros'
+  - tag_slug: cima-categoria
+    post_slug: trabaja-con-nosotros
+
 # Carrusel -> Posts del carrusel
   - tag_slug: carouselimagen
     post_slug: post-carrusel-1

@@ -11,6 +11,42 @@
   slug: aliados-categoria-conoce
   uuid: <%= uuid %>
 
+# CIMA -> Categoria
+- hidden: false
+  name: Cima-categoria
+  slug: cima-categoria
+  uuid: <%= uuid %>
+
+# CIMA -> Categoria 'Descripción'
+- hidden: false
+  name: Cima-categoria-descripcion
+  slug: cima-categoria-descripcion
+  uuid: <%= uuid %>
+
+# CIMA -> Categoria 'Equipo'
+- hidden: false
+  name: Cima-categoria-equipo
+  slug: cima-categoria-equipo
+  uuid: <%= uuid %>
+
+# CIMA -> Categoria 'Experiencia'
+- hidden: false
+  name: Cima-categoria-experiencia
+  slug: cima-categoria-experiencia
+  uuid: <%= uuid %>
+
+# CIMA -> Categoria 'Responsabilidad Social'
+- hidden: false
+  name: Cima-categoria-responsabilidad-social
+  slug: cima-categoria-responsabilidad-social
+  uuid: <%= uuid %>
+
+# CIMA -> Categoria 'Trabaja con nosotros'
+- hidden: false
+  name: Cima-categoria-trabaja-con-nosotros
+  slug: cima-categoria-trabaja-con-nosotros
+  uuid: <%= uuid %>
+
 # carruselPrincipa
 - hidden: false
   name: carousel-imagen

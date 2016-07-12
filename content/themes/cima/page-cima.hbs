@@ -1,0 +1,43 @@
+{{!< default}}
+{{#post}}
+  {{> cover-page}}
+  <section class="cima-page">
+    {{> body-title}}
+    {{#get "posts" order="title asc" filter="tag:cima-categoria" as |categoria|}}
+      {{#foreach categoria}}
+        <div class="common-categories row">
+          {{#if @odd}}
+            <div class="common-categories-content col-xs-6 col-md-7">
+              <div class="title">{{title}}</div>
+              <div class="content">{{content}}</div>
+              <div class="expand collapsed" data-toggle="collapse" data-target="#category-{{@number}}">
+                <img class="img-responsive"/>
+              </div>
+            </div>
+            <div class="common-categories-image col-xs-6 col-md-5">
+              <img src="{{image}}"
+                class="img-responsive"/>
+            </div>
+          {{else}}
+            <div class="common-categories-image col-xs-6 col-md-5">
+              <img src="{{image}}"
+                class="img-responsive"/>
+            </div>
+            <div class="common-categories-content col-xs-6 col-md-7">
+              <div class="title">{{title}}</div>
+              <div class="content">{{content}}</div>
+              <div class="expand collapsed" data-toggle="collapse" data-target="#category-{{@number}}">
+                <img class="img-responsive"/>
+              </div>
+            </div>
+          {{/if}}
+        </div>
+        <div class="common-categories-body cima-toggable-content row collapse" id="category-{{@number}}">
+          {{> cima-components }}
+        </div>
+        <div class="common-separator">
+        </div>
+      {{/foreach}}
+    {{/get}}
+  </section>
+{{/post}}
