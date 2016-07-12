@@ -13,6 +13,7 @@ class Seed
     DEFAULT_SETTINGS = [
       { key: "activeTheme", value: "cima" },
       { key: "labs",        value: '{"publicAPI":true}' },
+      { key: "logo",        value: '/default/logo-cima.png' },
       { key: "navigation",  value: DEFAULT_NAVIGATION.to_json }
     ]
 
