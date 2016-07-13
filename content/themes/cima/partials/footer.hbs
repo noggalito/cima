@@ -1,23 +1,21 @@
 <footer>
 <div class="footer-inner footerPrincipal">
   <div class="container-footer">
-    <div class="row colFooter">
       {{#get "posts" filter="slug:logo-footer" as |logo|}}
         {{#logo}}
         <div class="image-cima">
           <img src="{{image}}"
-            class="img-responsive"/>
+            class="img-responsive col-md-offset-4 col-sm-offset-6 col-xs-offset-5"/>
         </div>
         {{/logo}}
       {{/get}}
-    </div>
     <div class="row colFooter-cima">
       {{> navigation-inferior}}
       <div class="container leyendfooter">
-        <div class ="col-md-4 col-sm-4 leyend-cima">
+        <div class ="col-md-4 col-sm-4 leyend-cima col-md-offset-5 col-sm-offset-4 col-xs-offset-3 col-lg-offset-4">
           <h5>Copyright 2016-CIMA</h5>
         </div>
-        <div class="col-md-2 col-sm-2 leyend-noggalito">
+        <div class="col-md-3 col-sm-3 leyend-noggalito">
           <a class="" href="http://noggalito.com" target="_blank">
             powered by noggalito
           </a>
