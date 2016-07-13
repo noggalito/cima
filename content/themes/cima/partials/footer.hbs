@@ -1,0 +1,29 @@
+<footer>
+<div class="footer-inner footerPrincipal">
+  <div class="container-footer">
+    <div class="row colFooter">
+      {{#get "posts" filter="slug:logo-footer" as |logo|}}
+        {{#logo}}
+        <div class="image-cima">
+          <img src="{{image}}"
+            class="img-responsive"/>
+        </div>
+        {{/logo}}
+      {{/get}}
+    </div>
+    <div class="row colFooter-cima">
+      {{> navigation-inferior}}
+      <div class="container leyendfooter">
+        <div class ="col-md-4 col-sm-4 leyend-cima">
+          <h5>Copyright 2016-CIMA</h5>
+        </div>
+        <div class="col-md-2 col-sm-2 leyend-noggalito">
+          <a class="" href="http://noggalito.com" target="_blank">
+            powered by noggalito
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</footer>
