@@ -37,5 +37,71 @@
     @media only screen and (max-width:$device-sm)
       border-width: 350px 0 120px 170px
       margin-top: -350px
+.cover-404
+  position: relative
+  margin-top: 60px
+  .cover-image-404
+    @extend .cover-image
+    padding-top: 10px
+    position: relative
+    background-color: $gray-dark-three
+    height: 450px
+    @media only screen and (max-width:$device-md)
+      height: 400px
+    @media only screen and (max-width:$device-sm)
+      height: 300px
+    .logo-header
+      margin-top: 2%
+      img
+        margin: auto
+    .text-header
+      text-align: center
+      color: $gray-dark-four
+      font-family: DosisRegular
+      font-size: 2em
+    .text-footer
+      @extend .text-header
+    .image-content
 
+      width: 50%
+      margin: 10px auto
+      img
+        width: 80%
+        margin: auto
+        max-width: 317px
+        max-height: 147px
+    .button-back
+      text-align: center
+      margin-top: 10px
+      a
+        background: $yellow
+        border: none
+        border-radius: 0
+        color: $black
+        &:hover
+          background-color: $yellow
+        .glyphicon
+          top: 4px
+          float: right
+  .cover-triangle-404
+    position: absolute
+    width: 0
+    height: 0
+    border-style: solid
+    z-index: 1
+  .cover-triangle-header-404
+    @extend .cover-triangle-404
+    right: 0
+    border-width: 0 200px 200px 0
+    border-color: transparent $gray-light-two transparent transparent
+    @media only screen and (max-width:$device-sm)
+      border-width: 0 150px 100px 0
+
+  .cover-triangle-footer-404
+    @extend .cover-triangle-404
+    bottom: 0
+    border-width: 200px 0 0 200px
+    border-color: transparent transparent transparent $gray-light-two
+    @media only screen and (max-width:$device-sm)
+      border-width: 100px 0 0 150px
 
