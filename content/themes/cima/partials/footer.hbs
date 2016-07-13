@@ -7,13 +7,11 @@
           <img src="{{image}}"
             class="img-responsive col-md-offset-4 col-sm-offset-6 col-xs-offset-5"/>
         </div>
-        {{/logo}}
-      {{/get}}
     <div class="row colFooter-cima">
       {{> navigation-inferior}}
       <div class="container leyendfooter">
         <div class ="col-md-4 col-sm-4 leyend-cima col-md-offset-5 col-sm-offset-4 col-xs-offset-3 col-lg-offset-4">
-          <h5>Copyright 2016-CIMA</h5>
+          <h5>{{content}}</h5>
         </div>
         <div class="col-md-3 col-sm-3 leyend-noggalito">
           <a class="" href="http://noggalito.com" target="_blank">
@@ -22,6 +20,8 @@
         </div>
       </div>
     </div>
+    {{/logo}}
+  {{/get}}
   </div>
 </div>
 </footer>

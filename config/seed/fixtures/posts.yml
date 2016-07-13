@@ -292,3 +292,18 @@
   image: /default/icono.png
   markdown: Este es el formulario de Contactos
   html: "<p>Este es el formulario de Contactos</p>"
+
+# Logo-Footer
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "logo-footer"
+  slug: logo-footer
+  image: /default/logo-cima-footer.png
+  markdown: Copyright 2016-CIMA
+  html: "<p>Copyright 2016-CIMA</p>"
