@@ -1,23 +1,38 @@
 .informative-section
   position: relative
-  margin-top: -156px !important
+  margin-top: -156px
   float: right
   width: 0px
   height: 0px
   border-style: inset
-  border-style: inset
-  border-width: 348px 450px 352px 0px
+  z-index: 9 !important;
+  border-width: 348px 450px 488px 0px
   @media screen and (max-width: $device-lg)
-    border-width: 348px 420px 352px 0px
+    border-width: 348px 420px 478px 0px
+    margin-bottom: -105px
   @media screen and (max-width: $device-sm)
     border-width: 215px 345px 215px 0px
-    margin-top: -87px !important
+    margin-top: -87px
+    margin-bottom: 0
   @media screen and (max-width: $device-xs)
     border-width: 215px 307px 215px 0px
-    margin-top: -87px !important
+    margin-top: -87px
+    margin-bottom: -5px
 
   &-index
     margin-top: -80px !important
+    border-width: 348px 450px 428px 0px
+    @media screen and (max-width: $device-lg)
+      border-width: 348px 420px 403px 0px
+      margin-bottom: -105px
+    @media screen and (max-width: $device-sm)
+      border-width: 215px 345px 215px 0px
+      margin-top: -87px
+      margin-bottom: 0
+    @media screen and (max-width: $device-xs)
+      border-width: 215px 307px 215px 0px
+      margin-top: -87px
+      margin-bottom: -5px
 
   border-color: transparent $blue-dark transparent transparent
   .information-cima

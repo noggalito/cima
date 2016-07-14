@@ -1,0 +1,62 @@
+.footerPrincipal
+  .row
+    margin-left: 0
+    margin-right: 0
+  .footerNavbar
+    border: 0
+    background-color: $yellow
+    margin-bottom: 0
+  .colFooter-cima
+    background-color: $yellow
+    .collapse.navbar-collapse
+      .navbar-list-inferior
+        font-family: RalewayRegular
+        .navbar-menuItem
+          color: $black
+  @media screen and (max-width: $device-lg)
+    .colFooter-cima
+      .collapse.navbar-collapse
+        margin-top: -10px
+    .image-cima
+      display: inline-block
+      img
+        width: 350px
+  @media screen and (min-width: $device-lg)
+      .colFooter-cima
+        .collapse.navbar-collapse
+          margin-top: -10px
+          .navbar-list-inferior
+            font-size: 18px
+            .navbar-menuItem
+              margin-right: 12px
+  @media screen and (max-width: $device-sm)
+    .image-cima
+      display: inline-block
+      padding-left: 30px
+      img
+        width: 200px
+  @media screen and (max-width: $device-xs)
+    .image-cima
+      display: inline-block
+      padding-left: 10px
+  .leyendfooter
+    .leyend-noggalito
+      float: right
+      padding: 2%
+      display: inline-block
+      font-family: RalewaySemiBold
+      font-size: 12px
+      a
+        color: $blue-dark
+      @media screen and (max-width: $device-md)
+        font-size: 8px
+    .leyend-cima
+      font-family: RalewayThin
+      margin-top: -10px
+      @media screen and (max-width: $device-md)
+        margin-top: -22px
+        margin-bottom: -17px
+        h5
+          font-size: 12px
+      @media screen and (max-width: $device-sm)
+        margin-top: 0px

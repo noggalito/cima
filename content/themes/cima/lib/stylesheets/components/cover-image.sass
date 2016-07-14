@@ -73,11 +73,14 @@
     .button-back
       text-align: center
       margin-top: 10px
+      margin-right: 10%
       a
         background: $yellow
         border: none
         border-radius: 0
         color: $black
+        position: absolute
+        z-index: 12
         &:hover
           background-color: $yellow
         .glyphicon
@@ -104,4 +107,3 @@
     border-color: transparent transparent transparent $gray-light-two
     @media only screen and (max-width:$device-sm)
       border-width: 100px 0 0 150px
-
