@@ -307,3 +307,60 @@
   image: /default/logo-cima-footer.png
   markdown: Copyright 2016-CIMA
   html: "<p>Copyright 2016-CIMA</p>"
+
+# SERVICIOS
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: true
+  slug: servicios
+  title: Servicios
+  featured: false
+  language: en_US
+  status: published
+
+# SERVICIOS -> Categoria 'Edúcate'
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Edúcate"
+  slug: educate
+  image: /default/imagen_01.png
+  markdown: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.
+  html: <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.</p>
+
+# SERVICIOS -> Categoria 'Consultorías'
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Consultorías"
+  slug: consultorias
+  image: /default/imagen_02.png
+  markdown: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.
+  html: <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.</p>
+
+# SERVICIOS -> Categoria 'Licencias'
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Licencias"
+  slug: licencias
+  image: /default/imagen_02.png
+  markdown: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.
+  html: <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.</p>

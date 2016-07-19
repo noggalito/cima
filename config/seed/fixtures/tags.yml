@@ -52,3 +52,27 @@
   name: carousel-imagen
   slug: carouselimagen
   uuid: <%= uuid %>
+
+# SERVICIOS -> Categoria
+- hidden: false
+  name: servicios-categoria
+  slug: servicios-categoria
+  uuid: <%= uuid %>
+
+# SERVICIOS -> Categoria 'Edúcate'
+- hidden: false
+  name: servicios-categoria-educate
+  slug: servicios-categoria-educate
+  uuid: <%= uuid %>
+
+# SERVICIOS -> Categoria 'Consultorías'
+- hidden: false
+  name: servicios-categoria-consultorias
+  slug: servicios-categoria-consultorias
+  uuid: <%= uuid %>
+
+# SERVICIOS -> Categoria 'Licencias'
+- hidden: false
+  name: servicios-categoria-licencias
+  slug: servicios-categoria-licencias
+  uuid: <%= uuid %>

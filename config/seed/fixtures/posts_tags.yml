@@ -42,6 +42,18 @@
   - tag_slug: cima-categoria
     post_slug: trabaja-con-nosotros
 
+# SERVICIOS -> Categoria 'Edúcate'
+  - tag_slug: servicios-categoria
+    post_slug: educate
+
+# SERVICIOS -> Categoria 'Consultorías'
+  - tag_slug: servicios-categoria
+    post_slug: consultorias
+
+# SERVICIOS -> Categoria 'licencias'
+  - tag_slug: servicios-categoria
+    post_slug: licencias
+
 # Carrusel -> Posts del carrusel
   - tag_slug: carouselimagen
     post_slug: post-carrusel-1
