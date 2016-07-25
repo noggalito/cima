@@ -111,6 +111,7 @@
     "should-http": "0.0.4",
     "should-sinon": "0.0.5",
     "sinon": "1.17.3",
+    "slack-node": "^0.2.0",
     "supertest": "1.1.0",
     "top-gh-contribs": "2.0.2",
     "vinyl-map": "^1.0.1"
