@@ -7,3 +7,9 @@ built using [ghost](https://ghost.org/)
 ```
 $ gulp
 ```
+
+## deployment
+
+```
+$ ./deploy.bash production
+```
