@@ -4,7 +4,7 @@ $( document ).ready(function() {
     addActiveArrow('left-arrow');
     $( ".navbar-list .navbar-menuItem" ).hover(
       function() {
-        $( this ).append( $( "<div class='left-arrow'></div>" ) );
+        addHoverArrow(this, 'left-arrow');
       }, function() {
         $( this ).find( "div:last" ).remove();
       }
@@ -13,14 +13,23 @@ $( document ).ready(function() {
     addActiveArrow('top-arrow');
     $( ".navbar-list .navbar-menuItem" ).hover(
       function() {
-        $( this ).append( $( "<div class='top-arrow'></div>" ) );
+        addHoverArrow(this, 'top-arrow');
       }, function() {
         $( this ).find( "div:last" ).remove();
       }
     );
   }
+
   function addActiveArrow(arrowType){
     $( ".navbar-list .nav-current .navbar-menuItem" )
-      .append("<div class='"+ arrowType +"'></div>" );
+      .append("<span class='"+ arrowType +"'></span>" );
+  }
+
+  function addHoverArrow(self, arrowType) {
+    var elements = $(self).find('.' + arrowType);
+    if (elements.length === 0) {
+      $(self).append($("<div class='" + arrowType + "'></div>"));
+    }
+    $( this ).find( "div:last" ).remove();
   }
 });

@@ -10,15 +10,15 @@
     float: right
   .navbar-list
     padding-top: 2%
-    @media screen and (max-width: 768px)
+    @media screen and (max-width: $device-md)
       &:hover
         color: $blue-dark
     .navbar-menuItem
       color: $white
       font-family: RalewaySemiBold
       font-size: 13px
-      @media screen and (max-width: 768px)
-        color: $gray-light-three
+      @media screen and (max-width: $device-md)
+        color: $gray-dark-two
         &:hover
           color: $blue-dark
     .nav-current
@@ -63,5 +63,6 @@
   .navbar-collapse.collapse.in
     background-color: $gray-light-one
     position: absolute
-    z-index: 9
+    z-index: 13
     width: 100%
+    padding-left: 30px;
