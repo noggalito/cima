@@ -4,12 +4,13 @@
       {{#get "posts" filter="tag:carouselimagen" as |images|}}
         {{#foreach images}}
           <div class="item">
-            <img src="{{image}}">
+            <div class="img-responsive"
+                 style="background-image: url('{{image}}');"></div>
             <div class="menu-carousel">
-              <div class="carousel text text-nowrap">
+              <div class="carousel text carousel-item-title">
                 <h1>{{title}}</h1>
               </div>
-              <div class="content-wrapper">{{content}}</div>
+              <div class="carousel-item-content">{{content}}</div>
               <div class="carousel-controls-wrapper">
                 <div class="control-left">
                   <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
