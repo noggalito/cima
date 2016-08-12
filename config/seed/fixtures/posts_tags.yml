@@ -63,3 +63,66 @@
 
   - tag_slug: carouselimagen
     post_slug: post-carrusel-3
+
+# BLOG -> Menu
+  - tag_slug: blog-menu
+    post_slug: tema1
+
+  - tag_slug: blog-menu
+    post_slug: tema2
+
+  - tag_slug: blog-menu
+    post_slug: tema3
+
+  - tag_slug: blog-menu
+    post_slug: tema4
+
+# BLOG -> A cada Post se le asigna una categoria general
+  - tag_slug: blog
+    post_slug: blog-post-1
+
+  - tag_slug: blog
+    post_slug: blog-post-2
+
+  - tag_slug: blog
+    post_slug: blog-post-3
+
+  - tag_slug: blog
+    post_slug: blog-post-4
+
+  - tag_slug: blog
+    post_slug: blog-post-5
+
+  - tag_slug: blog
+    post_slug: blog-post-6
+
+  - tag_slug: blog
+    post_slug: blog-post-7
+
+  - tag_slug: blog
+    post_slug: blog-post-8
+
+# BLOG -> A cada Post se le asigna una categoria especifica
+  - tag_slug: tema1
+    post_slug: blog-post-1
+
+  - tag_slug: tema1
+    post_slug: blog-post-2
+
+  - tag_slug: tema1
+    post_slug: blog-post-3
+
+  - tag_slug: tema2
+    post_slug: blog-post-4
+
+  - tag_slug: tema2
+    post_slug: blog-post-5
+
+  - tag_slug: tema3
+    post_slug: blog-post-6
+
+  - tag_slug: tema3
+    post_slug: blog-post-7
+
+  - tag_slug: tema4
+    post_slug: blog-post-8

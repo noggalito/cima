@@ -76,3 +76,36 @@
   name: servicios-categoria-licencias
   slug: servicios-categoria-licencias
   uuid: <%= uuid %>
+
+# BLOG
+- hidden: false
+  name: Blog
+  slug: blog
+  uuid: <%= uuid %>
+
+# BLOG -> Menu
+- hidden: false
+  name: Blog-menu
+  slug: blog-menu
+  uuid: <%= uuid %>
+
+# BLOG -> Categorias del Menu
+- hidden: false
+  name: Tema 1
+  slug: tema1
+  uuid: <%= uuid %>
+
+- hidden: false
+  name: Tema 2
+  slug: tema2
+  uuid: <%= uuid %>
+
+- hidden: false
+  name: Tema 3
+  slug: tema3
+  uuid: <%= uuid %>
+
+- hidden: false
+  name: Tema 4
+  slug: tema4
+  uuid: <%= uuid %>

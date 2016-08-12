@@ -1,5 +1,6 @@
 $(document).ready(function(){function n(n){$(".navbar-list .nav-current .navbar-menuItem").append("<span class='"+n+"'></span>")}function a(n,a){var t=$(n).find("."+a);0===t.length&&$(n).append($("<div class='"+a+"'></div>")),$(this).find("div:last").remove()}window.matchMedia("(max-width: 768px)").matches?(n("left-arrow"),$(".navbar-list .navbar-menuItem").hover(function(){a(this,"left-arrow")},function(){$(this).find("div:last").remove()})):(n("top-arrow"),$(".navbar-list .navbar-menuItem").hover(function(){a(this,"top-arrow")},function(){$(this).find("div:last").remove()}))});
 !function(n){n(document).on("ready",function(){var o=window.location.pathname;"/aliados/"===o&&n(".informative-section").css("margin-top","-4px")})}(jQuery);
+!function(t){t(".blog-post-content").matchHeight()}(jQuery);
 $(document).ready(function(){$(".carousel-inner .item").filter(":first").addClass("active")});
 $(document).ready(function(){$(".navbar-list-inferior .navbar-menuItem").filter(function(n){return 5===n}).hide()});
 !function(){"use strict";console.log("hello world")}();

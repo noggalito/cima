@@ -1,0 +1,20 @@
+<div class="blog-nav">
+  <ul class="nav {{#is "post"}} nav-pills nav-stacked {{else}} nav-tabs {{/is}}">
+    {{#get "posts" order="created_at asc" filter="tag:blog-menu" as |categories|}}
+      {{#foreach categories}}
+        {{#if @first}}
+          <li class="blog-tab">
+            <a href="/tag/blog/">
+              All
+            </a>
+          </li>
+        {{/if}}
+        <li class="blog-tab">
+          <a href="/tag/{{slug}}/">
+            {{title}}
+          </a>
+        </li>
+      {{/foreach}}
+    {{/get}}
+  </ul>
+</div>
