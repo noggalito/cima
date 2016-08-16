@@ -364,3 +364,153 @@
   image: /default/imagen_02.png
   markdown: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.
   html: <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.</p>
+
+# BLOG -> Menu
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  slug: tema1
+  title: Tema 1
+  featured: false
+  language: en_US
+  status: published
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  slug: tema2
+  title: Tema 2
+  featured: false
+  language: en_US
+  status: published
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  slug: tema3
+  title: Tema 3
+  featured: false
+  language: en_US
+  status: published
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  slug: tema4
+  title: Tema 4
+  featured: false
+  language: en_US
+  status: published
+
+# BLOG ->  Contenidos del blog
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  slug: blog-post-1
+  title: <%= lipsum_small %>
+  featured: false
+  language: en_US
+  status: published
+  image: /default/imagen_blog.jpg
+  markdown: <%= lipsum %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  slug: blog-post-2
+  title: <%= lipsum_small %>
+  featured: false
+  language: en_US
+  status: published
+  image: /default/imagen_blog.jpg
+  markdown: <%= lipsum %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  slug: blog-post-3
+  title: <%= lipsum_small %>
+  featured: false
+  language: en_US
+  status: published
+  image: /default/imagen_blog.jpg
+  markdown: <%= lipsum %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  slug: blog-post-4
+  title: <%= lipsum_small %>
+  featured: false
+  language: en_US
+  status: published
+  image: /default/imagen_blog.jpg
+  markdown: <%= lipsum %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  slug: blog-post-5
+  title: <%= lipsum_small %>
+  featured: false
+  language: en_US
+  status: published
+  image: /default/imagen_blog.jpg
+  markdown: <%= lipsum %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  slug: blog-post-6
+  title: <%= lipsum_small %>
+  featured: false
+  language: en_US
+  status: published
+  image: /default/imagen_blog.jpg
+  markdown: <%= lipsum %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  slug: blog-post-7
+  title: <%= lipsum_small %>
+  featured: false
+  language: en_US
+  status: published
+  image: /default/imagen_blog.jpg
+  markdown: <%= lipsum %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  slug: blog-post-8
+  title: <%= lipsum_small %>
+  featured: false
+  language: en_US
+  status: published
+  image: /default/imagen_blog.jpg
+  markdown: <%= lipsum %>
