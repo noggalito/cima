@@ -1,42 +1,47 @@
 .informative-section
   position: relative
   margin-top: -156px
+  z-index: 9
+  width: 50%
+  height: 785px
+  background-size: 656px 785px
+  background-repeat: no-repeat
   float: right
-  width: 0px
-  height: 0px
-  border-style: inset
-  z-index: 9 !important;
-  border-width: 348px 450px 488px 0px
+
+  @media screen and (min-width: $device-md)
+    margin-top: -184px
   @media screen and (max-width: $device-md)
-    border-width: 348px 420px 478px 0px
     margin-bottom: -105px
+    background-size: 400px 800px
+    margin-top: -192px
   @media screen and (max-width: $device-xs)
-    border-width: 215px 345px 215px 0px
-    margin-top: -87px
-    margin-bottom: 0
+    margin-top: -192px
+    margin-bottom: -90px
+    width: 91%
+    height: 560px
+    background-size: 500px 686px
   @media screen and (max-width: $device-xxs)
-    border-width: 215px 307px 215px 0px
-    margin-top: -87px
-    margin-bottom: -5px
+    height: 530px
+    margin-top: -219px
+    margin-bottom: -88px
 
   &-index
-    margin-top: -80px !important
-    border-width: 348px 450px 428px 0px
+    margin-top: -80px
+    @media screen and (min-width: $device-md)
+      height: 690px
+      background-size: 656px 690px
     @media screen and (max-width: $device-md)
-      border-width: 348px 420px 403px 0px
       margin-bottom: -105px
+      background-size: 400px 776px
     @media screen and (max-width: $device-xs)
-      border-width: 215px 345px 215px 0px
-      margin-top: -87px
-      margin-bottom: 0
-    @media screen and (max-width: $device-xxs)
-      border-width: 215px 307px 215px 0px
-      margin-top: -87px
-      margin-bottom: -5px
-
-  border-color: transparent $blue-dark transparent transparent
+      margin-top: -160px
+      margin-bottom: -90px
+      width: 91%
+      height: 560px
   .information-cima
-    margin-top: -70px
+    margin-top: 220px
+    @media screen and (min-width: $device-md)
+      margin-top: 235px
   .title.section-informative, & .content-informative
     width: 200px
     margin-left: 143px
@@ -44,15 +49,21 @@
     @media screen and (max-width: $device-xs)
       margin-left: 114px
     @media screen and (max-width: $device-xxs)
-        margin-left: 98px
+      margin-left: 98px
+    @media screen and (min-width: $device-md)
+      margin-left: 230px
 
   .content-informative
     font-size: 10px
     font-family: RalewayRegular
+    @media screen and (min-width: $device-md)
+      font-size: 14px
   .section-informative
     font-size: 19px
     font-family: DosisLight
     margin-bottom: 3px
+    @media screen and (min-width: $device-md)
+      font-size: 24px
   .redesSociales
     width: 230px
     margin-left: 143px
@@ -60,6 +71,8 @@
       margin-left: 110px
     @media screen and (max-width: $device-xxs)
       margin-left: 75px
+    @media screen and (min-width: $device-md)
+      margin-left: 230px
 
     .social-section
       margin-right: 0
