@@ -2,14 +2,39 @@
   border-width: 0px
   background-color: $yellow
   border-radius: 0px
-  height: 84px
-  display: inline-block
-  margin-bottom: -69px
+  height: 90px
+  display: block
   width: 100%
+  position: relative
+  margin-bottom: 0
   .container-fluid
     float: right
   .navbar-list
-    padding-top: 2%
+    position: absolute
+    right: 20px
+    top: 20px
+    @media screen and (min-width: $device-md)
+      right: 40px
+    @media screen and (min-width: $device-lg)
+      right: 80px
+    li
+      border-bottom: 1px solid rgba(0,0,0,.1)
+      box-shadow: 0 1px 0 rgba(255,255,255,.2)
+      position: relative
+      a
+        padding-bottom: 0
+      .current-arrow
+        position: absolute
+        margin: auto
+        width: 0
+        height: 0
+        left: 0
+        right: 0
+        bottom: -12px
+        border-left: 5px solid transparent
+        border-right: 5px solid transparent
+        border-bottom: 8px solid $blue-dark
+
     @media screen and (max-width: $device-sm)
       &:hover
         color: $blue-dark
