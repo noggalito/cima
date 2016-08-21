@@ -2,14 +2,39 @@
   border-width: 0px
   background-color: $yellow
   border-radius: 0px
-  height: 84px
-  display: inline-block
-  margin-bottom: -69px
+  height: 90px
+  display: block
   width: 100%
+  position: relative
+  margin-bottom: 0
   .container-fluid
     float: right
   .navbar-list
-    padding-top: 2%
+    position: absolute
+    right: 20px
+    top: 20px
+    @media screen and (min-width: $device-md)
+      right: 40px
+    @media screen and (min-width: $device-lg)
+      right: 80px
+    li
+      border-bottom: 1px solid rgba(0,0,0,.1)
+      box-shadow: 0 1px 0 rgba(255,255,255,.2)
+      position: relative
+      a
+        padding-bottom: 0
+      .current-arrow
+        position: absolute
+        margin: auto
+        width: 0
+        height: 0
+        left: 0
+        right: 0
+        bottom: -12px
+        border-left: 5px solid transparent
+        border-right: 5px solid transparent
+        border-bottom: 8px solid $blue-dark
+
     @media screen and (max-width: $device-sm)
       &:hover
         color: $blue-dark
@@ -24,20 +49,18 @@
     .nav-current
       color: $white
 
-
-  .item-mobile
-    display: inline-block
-    margin-top: 30px
-    margin-left: 100px
-    .menuItem-mobile
-      color: $white
-      font-family: RalewaySemiBold
-      font-size: 13px
+  .menuItem-mobile
+    color: $white
+    font-family: RalewaySemiBold
+    font-size: 13px
+    position: absolute
+    right: 120px
+    top: 35px
 
   .navbar-toggle
-    border:none
-    margin-top: 22px
-    margin-bottom: 22px
+    border: none
+    margin-top: 24px
+    margin-right: 30px
     &:focus
       background-color: $yellow
       border: none
@@ -61,8 +84,31 @@
         width: 34px
         height: 4px
   .navbar-collapse.collapse.in
-    background-color: $gray-light-one
-    position: absolute
-    z-index: 13
-    width: 100%
-    padding-left: 30px;
+    @media (max-width: $device-sm)
+      z-index: 13
+      position: absolute
+      top: 90px // main navbar height
+      right: 0
+      padding-left: 0
+      padding-right: 0
+      box-shadow: -1px 1px 20px rgba(0,0,0,.5)
+      border-radius: 1px
+      .navbar-list
+        border-radius: 1px
+        background-color: $gray-light-one
+        position: relative
+        top: 0
+        right: 0
+        margin: 0
+        li a
+          width: 280px
+          padding: 15px 60px
+        .current-arrow
+          margin: 0
+          bottom: initial
+          right: initial
+          left: 40px
+          top: 19px
+          border-top: 5px solid transparent
+          border-bottom: 5px solid transparent
+          border-left: 8px solid $yellow
