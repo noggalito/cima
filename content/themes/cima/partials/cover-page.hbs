@@ -1,9 +1,9 @@
 <section class="cover">
   <div class="cover-triangle">
-  </div>
-  <div class="cover-logo">
-    <img src="{{@blog.logo}}"
-      class="img-responsive"/>
+    <div class="logo-image-wrapper">
+      <img src="{{@blog.logo}}"
+           class="img-responsive logo-image" />
+    </div>
   </div>
   {{#is "index"}}
     {{> cover-carousel}}

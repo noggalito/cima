@@ -1,4 +1,4 @@
-!function(n){n(document).on("ready",function(){var o=window.location.pathname;"/aliados/"===o&&n(".informative-section").css("margin-top","-4px")})}(jQuery);
+!function(i){i(document).on("ready",function(){var a=window.location.pathname;i(window).width();"/aliados/"===a&&(window.matchMedia("(max-width: 320px)").matches?(i(".informative-section").css("margin-top","-215px"),i(".main-phrase").css("margin-top","0px")):window.matchMedia("(max-width: 480px)").matches?(i(".main-phrase").css("margin-top","0px"),i(".informative-section").css("margin-top","-188px")):window.matchMedia("(max-width: 992px)").matches?i(".informative-section").css("margin-top","-165px"):window.matchMedia("(min-width: 992px)").matches&&i(".informative-section").css("margin-top","-158px"))})}(jQuery);
 !function(t){t(".blog-post-content").matchHeight()}(jQuery);
 $(document).ready(function(){$(".carousel-inner .item").filter(":first").addClass("active")});
 $(document).ready(function(){$(".navbar-list-inferior .navbar-menuItem").filter(function(n){return 5===n}).hide()});

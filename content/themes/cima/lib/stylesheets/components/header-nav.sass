@@ -1,0 +1,28 @@
+$defaultHeaderNavbarHeight: 90px
+
+.headerNavbar
+  height: $defaultHeaderNavbarHeight
+  @media screen and (max-width: $device-md)
+    height: $defaultHeaderNavbarHeight - 20px
+  @media screen and (max-width: $device-sm)
+    height: $defaultHeaderNavbarHeight - 40px
+  .navbar-list
+    top: 20px
+    @media screen and (max-width: $device-md)
+      top: 0
+
+.cover .cover-triangle
+  width: 385px
+  top: $defaultHeaderNavbarHeight * -1
+  @media screen and (max-width: $device-md)
+    width: 300px
+    top: ($defaultHeaderNavbarHeight - 20px) * -1
+  @media screen and (max-width: $device-sm)
+    width: 210px
+    top: ($defaultHeaderNavbarHeight - 40px) * -1
+  .logo-image
+    top: 50px
+    @media screen and (max-width: $device-md)
+      top: 40px
+    @media screen and (max-width: $device-sm)
+      top: 30px
