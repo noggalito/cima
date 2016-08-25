@@ -1,10 +1,6 @@
 <section class="cover">
-  <div class="cover-triangle">
-    <div class="logo-image-wrapper">
-      <img src="{{@blog.logo}}"
-           class="img-responsive logo-image" />
-    </div>
-  </div>
+  {{> cover-triangle}}
+
   {{#is "index"}}
     {{> cover-carousel}}
   {{else}}
