@@ -2,86 +2,50 @@
   position: relative
   margin-top: -156px
   z-index: 9
-  width: 60%
   height: 600px
   background-size: contain
   background-repeat: no-repeat
   background-position: 100% top
   background-image: url('/default/triangulo_azul_bloque.png')
   float: right
-
+  width: 350px
+  @media (min-width: $device-xs)
+    width: 370px
   @media (min-width: $device-sm)
     margin-top: -200px
     height: 700px
+    width: 500px
   @media (min-width: $device-md)
     height: 900px
+    width: 700px
     margin-top: -300px
   @media (min-width: $device-lg)
     height: 1100px
+    width: 900px
     margin-top: -300px
-
-  @media screen and (min-width: $device-md)
-    // margin-top: -184px
-  @media screen and (max-width: $device-md)
-    // margin-bottom: -105px
-    // background-size: 400px 800px
-    // margin-top: -192px
-  @media screen and (max-width: $device-xs)
-    // margin-top: -192px
-    // margin-bottom: -90px
-    // width: 91%
-    // height: 560px
-    // background-size: 500px 686px
-  @media screen and (max-width: $device-xxs)
-    // height: 530px
-    // margin-top: -219px
-    // margin-bottom: -88px
-
-  // &-index
-  //   margin-top: -80px
-  //   @media screen and (min-width: $device-md)
-  //     height: 690px
-  //     background-size: 656px 690px
-  //   @media screen and (max-width: $device-md)
-  //     margin-bottom: -105px
-  //     background-size: 400px 776px
-  //   @media screen and (max-width: $device-xs)
-  //     margin-top: -160px
-  //     margin-bottom: -90px
-  //     width: 91%
-  //     height: 560px
   .information-cima
     position: absolute
-    top: 100px
-    right: 30px
+    top: 120px
+    left: 100px
     width: 150px
     @media screen and (min-width: $device-xs)
-      top: 120px
-      right: 50px
+      top: 140px
+      left: 120px
       width: 180px
     @media screen and (min-width: $device-sm)
-      top: 230px
-      right: 120px
+      top: 200px
+      left: 140px
       width: 280px
     @media screen and (min-width: $device-md)
-      top: 280px
+      top: 300px
       width: 340px
-      right: 150px
+      left: 160px
     @media (min-width: $device-lg)
-      top: 330px
-      width: 380px
-      right: 180px
+      top: 350px
+      width: 370px
+      left: 220px
   .title.section-informative, & .content-informative
     color: $white
-    margin-left: 20px
-    //
-    //
-    // @media screen and (max-width: $device-xs)
-    //   margin-left: 114px
-    // @media screen and (max-width: $device-xxs)
-    //   margin-left: 98px
-    // @media screen and (min-width: $device-md)
-    //   margin-left: 230px
 
   .content-informative
     font-size: 10px
@@ -95,14 +59,7 @@
     @media screen and (min-width: $device-md)
       font-size: 24px
   .redesSociales
-    width: 230px
-    margin-left: 143px
-    @media screen and (max-width: $device-xs)
-      margin-left: 110px
-    @media screen and (max-width: $device-xxs)
-      margin-left: 75px
-    @media screen and (min-width: $device-md)
-      margin-left: 230px
+    // width: 230px
 
     .social-section
       margin-right: 0
