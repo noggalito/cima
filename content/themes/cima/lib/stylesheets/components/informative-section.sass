@@ -2,56 +2,86 @@
   position: relative
   margin-top: -156px
   z-index: 9
-  width: 50%
-  height: 785px
-  background-size: 656px 785px
+  width: 60%
+  height: 600px
+  background-size: contain
   background-repeat: no-repeat
+  background-position: 100% top
+  background-image: url('/default/triangulo_azul_bloque.png')
   float: right
 
-  @media screen and (min-width: $device-md)
-    margin-top: -184px
-  @media screen and (max-width: $device-md)
-    margin-bottom: -105px
-    background-size: 400px 800px
-    margin-top: -192px
-  @media screen and (max-width: $device-xs)
-    margin-top: -192px
-    margin-bottom: -90px
-    width: 91%
-    height: 560px
-    background-size: 500px 686px
-  @media screen and (max-width: $device-xxs)
-    height: 530px
-    margin-top: -219px
-    margin-bottom: -88px
+  @media (min-width: $device-sm)
+    margin-top: -200px
+    height: 700px
+  @media (min-width: $device-md)
+    height: 900px
+    margin-top: -300px
+  @media (min-width: $device-lg)
+    height: 1100px
+    margin-top: -300px
 
-  &-index
-    margin-top: -80px
-    @media screen and (min-width: $device-md)
-      height: 690px
-      background-size: 656px 690px
-    @media screen and (max-width: $device-md)
-      margin-bottom: -105px
-      background-size: 400px 776px
-    @media screen and (max-width: $device-xs)
-      margin-top: -160px
-      margin-bottom: -90px
-      width: 91%
-      height: 560px
+  @media screen and (min-width: $device-md)
+    // margin-top: -184px
+  @media screen and (max-width: $device-md)
+    // margin-bottom: -105px
+    // background-size: 400px 800px
+    // margin-top: -192px
+  @media screen and (max-width: $device-xs)
+    // margin-top: -192px
+    // margin-bottom: -90px
+    // width: 91%
+    // height: 560px
+    // background-size: 500px 686px
+  @media screen and (max-width: $device-xxs)
+    // height: 530px
+    // margin-top: -219px
+    // margin-bottom: -88px
+
+  // &-index
+  //   margin-top: -80px
+  //   @media screen and (min-width: $device-md)
+  //     height: 690px
+  //     background-size: 656px 690px
+  //   @media screen and (max-width: $device-md)
+  //     margin-bottom: -105px
+  //     background-size: 400px 776px
+  //   @media screen and (max-width: $device-xs)
+  //     margin-top: -160px
+  //     margin-bottom: -90px
+  //     width: 91%
+  //     height: 560px
   .information-cima
-    margin-top: 220px
+    position: absolute
+    top: 100px
+    right: 30px
+    width: 150px
+    @media screen and (min-width: $device-xs)
+      top: 120px
+      right: 50px
+      width: 180px
+    @media screen and (min-width: $device-sm)
+      top: 230px
+      right: 120px
+      width: 280px
     @media screen and (min-width: $device-md)
-      margin-top: 235px
+      top: 280px
+      width: 340px
+      right: 150px
+    @media (min-width: $device-lg)
+      top: 330px
+      width: 380px
+      right: 180px
   .title.section-informative, & .content-informative
-    width: 200px
-    margin-left: 143px
     color: $white
-    @media screen and (max-width: $device-xs)
-      margin-left: 114px
-    @media screen and (max-width: $device-xxs)
-      margin-left: 98px
-    @media screen and (min-width: $device-md)
-      margin-left: 230px
+    margin-left: 20px
+    //
+    //
+    // @media screen and (max-width: $device-xs)
+    //   margin-left: 114px
+    // @media screen and (max-width: $device-xxs)
+    //   margin-left: 98px
+    // @media screen and (min-width: $device-md)
+    //   margin-left: 230px
 
   .content-informative
     font-size: 10px

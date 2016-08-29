@@ -33,17 +33,16 @@
       </div>
     </div>
   </div> -->
-  <div  class="img-responsive informative-section {{#is "index"}} informative-section-index {{/is}}"
-    style="background-image: url('/default/triangulo_azul_bloque.png');">
+  <div class="img-responsive informative-section">
     <div class="information-cima">
-      {{#get "posts" filter="slug:informacion" as |images|}}
-        {{#foreach images}}
-            <div class="section">
-              <div class="title section-informative">
-                <div>{{title}}</div>
-              </div>
-              <div class="content-informative">{{content}}</div>
+      {{#get "posts" filter="slug:informacion" as |informationPosts|}}
+        {{#foreach informationPosts}}
+          <div class="section">
+            <div class="title section-informative">
+              <div>{{title}}</div>
             </div>
+            <div class="content-informative">{{content}}</div>
+          </div>
         {{/foreach}}
       {{/get}}
     </div>
@@ -66,6 +65,6 @@
           </a>
         </div>
       </div>
-    </div>  
+    </div>
   </div>
 </div>
