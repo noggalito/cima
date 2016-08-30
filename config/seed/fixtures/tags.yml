@@ -95,11 +95,23 @@
   description: 'Servicios > Edúcate Online'
   uuid: <%= uuid %>
 
-# SERVICIOS -> Categoria 'Consultorías'
 - hidden: false
-  name: servicios-categoria-consultorias
-  slug: servicios-categoria-consultorias
+  name: 'Servicios > Consultorías'
+  slug: servicios-consultorias
+  description: 'Servicios > Consultorías'
   uuid: <%= uuid %>
+
+- hidden: false
+  name: 'Servicios > Consultorías > En línea'
+  slug: servicios-consultorias-en-linea
+  description: 'Servicios > Consultorías > En línea'
+  uuid: <%= uuid %>
+
+# SERVICIOS -> Categoria 'Consultorías'
+# - hidden: false
+#   name: servicios-categoria-consultorias
+#   slug: servicios-categoria-consultorias
+#   uuid: <%= uuid %>
 
 # SERVICIOS -> Categoria 'Licencias'
 - hidden: false

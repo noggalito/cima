@@ -61,6 +61,9 @@
 - tag_slug: servicios-educate-programas
   post_slug: programa-uno
 
+- tag_slug: servicios-consultorias-en-linea
+  post_slug: consultorias-en-linea-uno
+
 - tag_slug: servicios-educate-lo-nuevo
   post_slug: nuevas-clases-en-linea
 
@@ -78,6 +81,9 @@
 
 - tag_slug: servicios-educate
   post_slug: educate-lo-nuevo
+
+- tag_slug: servicios-consultorias
+  post_slug: consultorias-en-linea
 
 - tag_slug: servicios-educate
   post_slug: educate-a-medida
