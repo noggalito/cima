@@ -27,11 +27,10 @@
     position: absolute
     top: 120px
     left: 100px
-    width: 150px
+    width: 220px
     @media screen and (min-width: $device-xs)
       top: 140px
       left: 120px
-      width: 180px
     @media screen and (min-width: $device-sm)
       top: 200px
       left: 140px
@@ -58,18 +57,27 @@
     margin-bottom: 3px
     @media screen and (min-width: $device-md)
       font-size: 24px
-  .redesSociales
+  .redes-sociales
     // width: 230px
-
-    .social-section
-      margin-right: 0
-      margin-left: 0
-      .textFooter-title
-        font-size: 15px
-        color: $white
-        font-family: DosisLight
-      .col-xs-3
-        padding-left: 3px
-      .thumbnail
-        background-color: $blue-dark
-        height: 40px
+    .textFooter-title, .sn.thumbnail
+      display: inline-block
+    .textFooter-title
+      color: $white
+      font-family: DosisLight
+      margin-top: 0
+      margin-bottom: 0
+      margin-right: 10px
+      vertical-align: top
+      @media (min-width: $device-sm)
+        margin-right: 20px
+    .sn.thumbnail
+      background-color: $blue-dark
+      height: 30px
+      width: 30px
+      margin-bottom: 0
+      margin-right: 5px
+      @media (min-width: $device-sm)
+        margin-right: 15px
+      img
+        max-width: 100%
+        max-height: 100%

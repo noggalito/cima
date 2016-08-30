@@ -1,4 +1,4 @@
-<div class="img-responsive informative-section">
+<div class="informative-section">
   <div class="information-cima">
     {{#get "posts" filter="slug:informacion" as |informationPosts|}}
       {{#foreach informationPosts}}
@@ -8,6 +8,6 @@
         <div class="content-informative">{{content}}</div>
       {{/foreach}}
     {{/get}}
-    {{> "follow-us"}}
+    {{> "redes-sociales"}}
   </div>
 </div>
