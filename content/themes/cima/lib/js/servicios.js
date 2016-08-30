@@ -1,6 +1,7 @@
 (function () {
   var titlesSelector = '.nested-title',
-      serviciosSelector = '.servicios-inside-categories-content';
+      serviciosSelector = '.servicios-inside-categories-content',
+      expandCategoriesSelector = '.common-categories-content .expand';
 
   $(document).on(
     'show.bs.collapse',
@@ -17,9 +18,9 @@
 
   $(document).on(
     'click',
-    '.common-categories-content .expand',
+    expandCategoriesSelector,
     function (e) {
       $(this).toggleClass('collapsed');
     }
-  )
+  );
 })();
