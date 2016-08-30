@@ -1,5 +1,6 @@
 (function () {
   var titlesSelector = '.nested-title',
+      serviciosContext = '.service-context',
       serviciosSelector = '.servicios-inside-categories-content',
       expandCategoriesSelector = '.common-categories-content .expand';
 
@@ -8,7 +9,8 @@
     serviciosSelector,
     function (e) {
       // show only one servicio at a time
-      $(serviciosSelector).removeClass('in');
+      var wrapper = $(this).parents(serviciosContext);
+      wrapper.find(serviciosSelector).removeClass('in');
       // remove 'active' state from titles
       $(titlesSelector).removeAttr('aria-expanded');
       // load content over AJAX

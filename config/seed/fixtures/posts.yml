@@ -345,9 +345,6 @@
   status: published
   title: "Online"
   slug: educate-online
-  image: /default/imagen_01.png
-  markdown: <%= lipsum_small %>
-  html: <p><%= lipsum_small %></p>
 
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>
@@ -362,6 +359,7 @@
   image: /default/equipo1.jpg
   markdown: <%= lipsum_small %>
   html: <p><%= lipsum_small %></p>
+  meta_description: <%= lipsum_small %>
 
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>
@@ -376,6 +374,7 @@
   image: /default/equipo2.jpg
   markdown: <%= lipsum_small %>
   html: <p><%= lipsum_small %></p>
+  meta_description: <%= lipsum_small %>
 
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>
@@ -385,12 +384,8 @@
   featured: false
   language: en_US
   status: published
-  title: "Edúcate a medida"
+  title: "A medida"
   slug: educate-a-medida
-  image: /default/equipo2.jpg
-  markdown: <%= lipsum_small %>
-  html: <p><%= lipsum_small %></p>
-  meta_description: <%= lipsum_small %>
 
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>
@@ -430,6 +425,21 @@
   featured: false
   language: en_US
   status: published
+  title: "Licencia de venta uno"
+  slug: licencia-de-venta-uno
+  image: /default/equipo2.jpg
+  markdown: <%= lipsum_small %>
+  html: <p><%= lipsum_small %></p>
+  meta_description: <%= lipsum_small %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
   title: "Nuevas clases en línea"
   slug: nuevas-clases-en-linea
   image: /default/equipo1.jpg
@@ -450,6 +460,7 @@
   image: /default/equipo3.jpg
   markdown: <%= lipsum_small %>
   html: <p><%= lipsum_small %></p>
+  meta_description: <%= lipsum_small %>
 
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>
@@ -464,6 +475,7 @@
   image: /default/equipo1.jpg
   markdown: <%= lipsum_small %>
   html: <p><%= lipsum_small %></p>
+  meta_description: <%= lipsum_small %>
 
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>
@@ -478,6 +490,7 @@
   image: /default/equipo3.jpg
   markdown: <%= lipsum_small %>
   html: <p><%= lipsum_small %></p>
+  meta_description: <%= lipsum_small %>
 
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>
@@ -489,9 +502,6 @@
   status: published
   title: "Programas"
   slug: educate-programas
-  image: /default/imagen_01.png
-  markdown: <%= lipsum_small %>
-  html: <p><%= lipsum_small %></p>
 
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>
@@ -503,9 +513,6 @@
   status: published
   title: "Lo nuevo"
   slug: educate-lo-nuevo
-  image: /default/imagen_01.png
-  markdown: <%= lipsum_small %>
-  html: <p><%= lipsum_small %></p>
 
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>
@@ -517,9 +524,6 @@
   status: published
   title: "En línea"
   slug: consultorias-en-linea
-  image: /default/imagen_01.png
-  markdown: <%= lipsum_small %>
-  html: <p><%= lipsum_small %></p>
 
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>
@@ -529,11 +533,23 @@
   featured: false
   language: en_US
   status: published
-  title: "A medida"
-  slug: educate-a-medida
-  image: /default/imagen_01.png
+  title: "Licencias de venta"
+  slug: licencias-de-venta
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Edúcate a medida"
+  slug: educate-educate-a-medida
+  image: /default/equipo2.jpg
   markdown: <%= lipsum_small %>
   html: <p><%= lipsum_small %></p>
+  meta_description: <%= lipsum_small %>
 
 # SERVICIOS -> Categoria 'Consultorías'
 - uuid: <%= uuid %>

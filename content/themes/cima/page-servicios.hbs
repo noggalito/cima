@@ -5,52 +5,54 @@
     {{> body-title}}
     {{#get "posts" order="asc" filter="tag:servicios-categoria" as |categoria|}}
       {{#foreach categoria}}
-        <div class="common-categories row">
-          {{#if @odd}}
-            <div class="common-categories-content col-xs-6 col-md-7">
-              <div class="title">{{title}}</div>
-              <div class="content">{{content}}</div>
-              <div class="expand collapsed" data-toggle="collapse" data-target=".category-{{@number}}">
-                <img class="img-responsive"/>
+        <div class="service-context">
+          <div class="common-categories row">
+            {{#if @odd}}
+              <div class="common-categories-content col-xs-6 col-md-7">
+                <div class="title">{{title}}</div>
+                <div class="content">{{content}}</div>
+                <div class="expand collapsed" data-toggle="collapse" data-target=".category-{{@number}}">
+                  <img class="img-responsive"/>
+                </div>
+                {{> "category-nested-posts"}}
               </div>
-              {{> "category-nested-posts"}}
-            </div>
-            <div class="common-categories-image col-xs-6 col-md-5">
-              <img src="{{image}}"
-                class="img-responsive"/>
-            </div>
-          {{else}}
-            <div class="common-categories-image col-xs-6 col-md-5">
-              <img src="{{image}}"
-                class="img-responsive"/>
-            </div>
-            <div class="common-categories-content col-xs-6 col-md-7">
-              <div class="title">{{title}}</div>
-              <div class="content">{{content}}</div>
-              <div class="expand collapsed" data-toggle="collapse" data-target=".category-{{@number}}">
-                <img class="img-responsive"/>
+              <div class="common-categories-image col-xs-6 col-md-5">
+                <img src="{{image}}"
+                  class="img-responsive"/>
               </div>
-              {{> "category-nested-posts"}}
-            </div>
-          {{/if}}
-        </div>
+            {{else}}
+              <div class="common-categories-image col-xs-6 col-md-5">
+                <img src="{{image}}"
+                  class="img-responsive"/>
+              </div>
+              <div class="common-categories-content col-xs-6 col-md-7">
+                <div class="title">{{title}}</div>
+                <div class="content">{{content}}</div>
+                <div class="expand collapsed" data-toggle="collapse" data-target=".category-{{@number}}">
+                  <img class="img-responsive"/>
+                </div>
+                {{> "category-nested-posts"}}
+              </div>
+            {{/if}}
+          </div>
 
-        <div class="category-{{@number}}">
-          <!-- for the contents themselves -->
-          <!-- filled out with JS -->
-          {{#get "posts" filter="tag:servicios-{{slug}}" as |nested|}}
-            {{#foreach nested}}
-              <div id="category-nested-content-{{slug}}"
-                   data-slug="{{slug}}"
-                   class="collapse servicios-inside-categories-content"
-                >
-                <h3 class="loading">Cargando...</h3>
-              </div>
-            {{/foreach}}
-          {{/get}}
-        </div>
+          <div class="category-{{@number}}">
+            <!-- for the contents themselves -->
+            <!-- filled out with JS -->
+            {{#get "posts" filter="tag:servicios-{{slug}}" as |nested|}}
+              {{#foreach nested}}
+                <div id="category-nested-content-{{slug}}"
+                     data-slug="{{slug}}"
+                     class="collapse servicios-inside-categories-content"
+                  >
+                  <h3 class="loading">Cargando...</h3>
+                </div>
+              {{/foreach}}
+            {{/get}}
+          </div>
 
-        <div class="common-separator"></div>
+          <div class="common-separator"></div>
+        </div>
       {{/foreach}}
     {{/get}}
   </section>

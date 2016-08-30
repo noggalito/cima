@@ -107,6 +107,18 @@
   description: 'Servicios > Consultorías > En línea'
   uuid: <%= uuid %>
 
+- hidden: false
+  name: 'Servicios > Licencias'
+  slug: servicios-licencias
+  description: 'Servicios > Licencias'
+  uuid: <%= uuid %>
+
+- hidden: false
+  name: 'Servicios > Licencias > Licencia de venta'
+  slug: servicios-licencias-de-venta
+  description: 'Servicios > Licencias > Licencia de venta'
+  uuid: <%= uuid %>
+
 # SERVICIOS -> Categoria 'Consultorías'
 # - hidden: false
 #   name: servicios-categoria-consultorias
