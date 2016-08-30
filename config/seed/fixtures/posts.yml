@@ -335,6 +335,62 @@
   markdown: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.
   html: <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.</p>
 
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Online"
+  slug: educate-online
+  image: /default/imagen_01.png
+  markdown: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.
+  html: <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.</p>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Programas"
+  slug: educate-programas
+  image: /default/imagen_01.png
+  markdown: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.
+  html: <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.</p>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Lo nuevo"
+  slug: educate-lo-nuevo
+  image: /default/imagen_01.png
+  markdown: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.
+  html: <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.</p>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "A medida"
+  slug: educate-a-medida
+  image: /default/imagen_01.png
+  markdown: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.
+  html: <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.</p>
+
 # SERVICIOS -> Categoria 'Consultorías'
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>

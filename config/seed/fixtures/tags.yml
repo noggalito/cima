@@ -65,6 +65,16 @@
   slug: servicios-categoria-educate
   uuid: <%= uuid %>
 
+- hidden: false
+  name: cima-categoria-educate
+  slug: cima-categoria-educate
+  uuid: <%= uuid %>
+
+- hidden: false
+  name: educate-online
+  slug: educate-online
+  uuid: <%= uuid %>
+
 # SERVICIOS -> Categoria 'Consultorías'
 - hidden: false
   name: servicios-categoria-consultorias
