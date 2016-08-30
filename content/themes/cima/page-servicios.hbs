@@ -38,7 +38,7 @@
         <div class="category-{{@number}}">
           <!-- for the contents themselves -->
           <!-- filled out with JS -->
-          {{#get "posts" filter="tag:cima-categoria-{{slug}}" as |nested|}}
+          {{#get "posts" filter="tag:servicios-{{slug}}" as |nested|}}
             {{#foreach nested}}
               <div id="category-nested-content-{{slug}}"
                    data-slug="{{slug}}"

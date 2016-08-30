@@ -66,13 +66,33 @@
   uuid: <%= uuid %>
 
 - hidden: false
-  name: cima-categoria-educate
-  slug: cima-categoria-educate
+  name: servicios-educate
+  slug: servicios-educate
+  description: 'Servicios > Edúcate'
   uuid: <%= uuid %>
 
 - hidden: false
-  name: cima-categoria-educate-online
-  slug: cima-categoria-educate-online
+  name: 'Servicios > Edúcate > A medida'
+  slug: servicios-educate-a-medida
+  description: 'Servicios > Edúcate > A medida'
+  uuid: <%= uuid %>
+
+- hidden: false
+  name: 'Servicios > Edúcate > Programas'
+  slug: servicios-educate-programas
+  description: 'Servicios > Edúcate > Programas'
+  uuid: <%= uuid %>
+
+- hidden: false
+  name: 'Servicios > Edúcate > Lo nuevo'
+  slug: servicios-educate-lo-nuevo
+  description: 'Servicios > Edúcate > Lo nuevo'
+  uuid: <%= uuid %>
+
+- hidden: false
+  name: servicios-educate-online
+  slug: servicios-educate-online
+  description: 'Servicios > Edúcate Online'
   uuid: <%= uuid %>
 
 # SERVICIOS -> Categoria 'Consultorías'

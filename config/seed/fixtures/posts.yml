@@ -400,6 +400,36 @@
   featured: false
   language: en_US
   status: published
+  title: "Programa Uno"
+  slug: programa-uno
+  image: /default/equipo2.jpg
+  markdown: <%= lipsum_small %>
+  html: <p><%= lipsum_small %></p>
+  meta_description: <%= lipsum_small %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Nuevas clases en línea"
+  slug: nuevas-clases-en-linea
+  image: /default/equipo2.jpg
+  markdown: <%= lipsum_small %>
+  html: <p><%= lipsum_small %></p>
+  meta_description: <%= lipsum_small %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
   title: "Perforación de minas"
   slug: perforacion-de-minas
   image: /default/equipo3.jpg

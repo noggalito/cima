@@ -46,31 +46,40 @@
 - tag_slug: servicios-categoria
   post_slug: educate
 
-- tag_slug: cima-categoria-educate
+- tag_slug: servicios-educate
   post_slug: educate-online
 
-- tag_slug: cima-categoria-educate-online
+- tag_slug: servicios-educate-online
   post_slug: gestion-de-riesgos-laborales
 
-- tag_slug: cima-categoria-educate-online
+- tag_slug: servicios-educate-online
   post_slug: manejo-de-retroexcavadora
 
-- tag_slug: cima-categoria-educate-online
+- tag_slug: servicios-educate-a-medida
+  post_slug: educate-a-medida
+
+- tag_slug: servicios-educate-programas
+  post_slug: programa-uno
+
+- tag_slug: servicios-educate-lo-nuevo
+  post_slug: nuevas-clases-en-linea
+
+- tag_slug: servicios-educate-online
   post_slug: perforacion-de-minas
 
-- tag_slug: cima-categoria-educate-online
+- tag_slug: servicios-educate-online
   post_slug: logistica-y-operaciones
 
-- tag_slug: cima-categoria-educate-online
+- tag_slug: servicios-educate-online
   post_slug: impacto-medioambiental-de-la-mineria
 
-- tag_slug: cima-categoria-educate
+- tag_slug: servicios-educate
   post_slug: educate-programas
 
-- tag_slug: cima-categoria-educate
+- tag_slug: servicios-educate
   post_slug: educate-lo-nuevo
 
-- tag_slug: cima-categoria-educate
+- tag_slug: servicios-educate
   post_slug: educate-a-medida
 
 # SERVICIOS -> Categoria 'Consultorías'
