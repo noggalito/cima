@@ -71,6 +71,11 @@
   uuid: <%= uuid %>
 
 - hidden: false
+  name: cima-categoria-educate-online
+  slug: cima-categoria-educate-online
+  uuid: <%= uuid %>
+
+- hidden: false
   name: educate-online
   slug: educate-online
   uuid: <%= uuid %>

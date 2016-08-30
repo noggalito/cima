@@ -1,0 +1,52 @@
+.servicios-inside-categories-content
+  background-color: $gray-light-two
+  min-height: 100px
+  .loading
+    padding-top: 30px
+    margin-top: 0
+    text-align: center
+    font-family: RalewayLight
+  .servicio-view
+    cursor: pointer
+    margin-top: 20px
+    margin-bottom: 25px
+    @media (min-width: $device-sm)
+      margin-top: 30px
+      margin-bottom: 35px
+    &:hover, &:active
+      text-decoration: none
+      .servicio-overlay
+        display: block
+    h4.title
+      font-family: RalewaySemiBold
+      color: $blue-dark
+    .img-responsive
+      height: 210px
+      background-size: cover
+      background-repeat: no-repeat
+    .servicio-overlay
+      display: none
+      height: 100%
+      background-color: $blackTransparentTwo
+      position: relative
+      .meta
+        font-family: RalewayLight
+        position: absolute
+        bottom: 0
+        color: $white
+        background-color: $blackTransparentOne
+        padding: 5px
+        @media (min-width: $device-sm)
+          padding: 10px
+
+.open-servicio-view
+  margin-top: 30px
+  margin-bottom: 35px
+  @media (min-width: $device-sm)
+    margin-top: 40px
+    margin-bottom: 55px
+  .title
+    color: $blue-dark
+    font-family: RalewaySemiBold
+  .servicio-content
+    font-family: RalewayLight

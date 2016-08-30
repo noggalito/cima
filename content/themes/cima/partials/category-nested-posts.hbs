@@ -1,7 +1,12 @@
-<div class="categories-content-posts collapse" id="category-{{@number}}">
+<div class="categories-content-posts collapse category-{{@number}}">
   {{#get "posts" filter="tag:cima-categoria-{{slug}}" as |nested|}}
     {{#foreach nested}}
-      <h4 class="nested-title">{{title}}</h4>
+      <h4
+        class="nested-title expand"
+        data-toggle="collapse" data-target="#category-nested-content-{{slug}}"
+        >
+        {{title}}
+      </h4>
     {{/foreach}}
   {{/get}}
 </div>
