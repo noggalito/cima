@@ -1,128 +1,185 @@
 # Aliados -> Categoria: 'Conoce'
-  - tag_slug: aliados-categoria
-    post_slug: conoce
+- tag_slug: aliados-categoria
+  post_slug: conoce
 
 # Aliados -> Lista de aliados
-  - tag_slug: aliados-categoria-conoce
-    post_slug: aliado1
+- tag_slug: aliados-categoria-conoce
+  post_slug: aliado1
 
-  - tag_slug: aliados-categoria-conoce
-    post_slug: aliado2
+- tag_slug: aliados-categoria-conoce
+  post_slug: aliado2
 
-  - tag_slug: aliados-categoria-conoce
-    post_slug: aliado3
+- tag_slug: aliados-categoria-conoce
+  post_slug: aliado3
 
 # CIMA -> Categoria 'Descripción'
-  - tag_slug: cima-categoria
-    post_slug: descripcion
+- tag_slug: cima-categoria-descripcion
+  post_slug: descripcion
 
 # CIMA -> Categoria 'Equipo'
-  - tag_slug: cima-categoria
-    post_slug: equipo
+- tag_slug: cima-categoria
+  post_slug: equipo
 
 # CIMA -> Lista de equipos
-  - tag_slug: cima-categoria-equipo
-    post_slug: equipo1
+- tag_slug: cima-categoria-equipo
+  post_slug: equipo1
 
-  - tag_slug: cima-categoria-equipo
-    post_slug: equipo2
+- tag_slug: cima-categoria-equipo
+  post_slug: equipo2
 
-  - tag_slug: cima-categoria-equipo
-    post_slug: equipo3
+- tag_slug: cima-categoria-equipo
+  post_slug: equipo3
 
 # CIMA -> Categoria 'Experiencia'
-  - tag_slug: cima-categoria
-    post_slug: experiencia
+- tag_slug: cima-categoria
+  post_slug: experiencia
+
+- tag_slug: cima-categoria-experiencia
+  post_slug: mucha-experiencia
 
 # CIMA -> Categoria 'Responsabilidad Social'
-  - tag_slug: cima-categoria
-    post_slug: responsabilidad-social
+- tag_slug: cima-categoria
+  post_slug: responsabilidad-social
+
+- tag_slug: cima-categoria-responsabilidad-social
+  post_slug: nuestra-responsabilidad-social
 
 # CIMA -> Categoria 'Trabaja con nosotros'
-  - tag_slug: cima-categoria
-    post_slug: trabaja-con-nosotros
+- tag_slug: cima-categoria
+  post_slug: trabaja-con-nosotros
+
+- tag_slug: cima-categoria-trabaja-con-nosotros
+  post_slug: estamos-contratando
 
 # SERVICIOS -> Categoria 'Edúcate'
-  - tag_slug: servicios-categoria
-    post_slug: educate
+- tag_slug: servicios-categoria
+  post_slug: educate
+
+- tag_slug: servicios-educate
+  post_slug: educate-online
+
+- tag_slug: servicios-educate-online
+  post_slug: gestion-de-riesgos-laborales
+
+- tag_slug: servicios-educate-online
+  post_slug: manejo-de-retroexcavadora
+
+- tag_slug: servicios-educate-a-medida
+  post_slug: educate-educate-a-medida
+
+- tag_slug: servicios-educate-programas
+  post_slug: programa-uno
+
+- tag_slug: servicios-consultorias-en-linea
+  post_slug: consultorias-en-linea-uno
+
+- tag_slug: servicios-licencias-de-venta
+  post_slug: licencia-de-venta-uno
+
+- tag_slug: servicios-educate-lo-nuevo
+  post_slug: nuevas-clases-en-linea
+
+- tag_slug: servicios-educate-online
+  post_slug: perforacion-de-minas
+
+- tag_slug: servicios-educate-online
+  post_slug: logistica-y-operaciones
+
+- tag_slug: servicios-educate-online
+  post_slug: impacto-medioambiental-de-la-mineria
+
+- tag_slug: servicios-educate
+  post_slug: educate-programas
+
+- tag_slug: servicios-educate
+  post_slug: educate-lo-nuevo
+
+- tag_slug: servicios-consultorias
+  post_slug: consultorias-en-linea
+
+- tag_slug: servicios-licencias
+  post_slug: licencias-de-venta
+
+- tag_slug: servicios-educate
+  post_slug: educate-a-medida
 
 # SERVICIOS -> Categoria 'Consultorías'
-  - tag_slug: servicios-categoria
-    post_slug: consultorias
+- tag_slug: servicios-categoria
+  post_slug: consultorias
 
 # SERVICIOS -> Categoria 'licencias'
-  - tag_slug: servicios-categoria
-    post_slug: licencias
+- tag_slug: servicios-categoria
+  post_slug: licencias
 
 # Carrusel -> Posts del carrusel
-  - tag_slug: carouselimagen
-    post_slug: post-carrusel-1
+- tag_slug: carouselimagen
+  post_slug: post-carrusel-1
 
-  - tag_slug: carouselimagen
-    post_slug: post-carrusel-2
+- tag_slug: carouselimagen
+  post_slug: post-carrusel-2
 
-  - tag_slug: carouselimagen
-    post_slug: post-carrusel-3
+- tag_slug: carouselimagen
+  post_slug: post-carrusel-3
 
 # BLOG -> Menu
-  - tag_slug: blog-menu
-    post_slug: tema1
+- tag_slug: blog-menu
+  post_slug: tema1
 
-  - tag_slug: blog-menu
-    post_slug: tema2
+- tag_slug: blog-menu
+  post_slug: tema2
 
-  - tag_slug: blog-menu
-    post_slug: tema3
+- tag_slug: blog-menu
+  post_slug: tema3
 
-  - tag_slug: blog-menu
-    post_slug: tema4
+- tag_slug: blog-menu
+  post_slug: tema4
 
 # BLOG -> A cada Post se le asigna una categoria general
-  - tag_slug: blog
-    post_slug: blog-post-1
+- tag_slug: blog
+  post_slug: blog-post-1
 
-  - tag_slug: blog
-    post_slug: blog-post-2
+- tag_slug: blog
+  post_slug: blog-post-2
 
-  - tag_slug: blog
-    post_slug: blog-post-3
+- tag_slug: blog
+  post_slug: blog-post-3
 
-  - tag_slug: blog
-    post_slug: blog-post-4
+- tag_slug: blog
+  post_slug: blog-post-4
 
-  - tag_slug: blog
-    post_slug: blog-post-5
+- tag_slug: blog
+  post_slug: blog-post-5
 
-  - tag_slug: blog
-    post_slug: blog-post-6
+- tag_slug: blog
+  post_slug: blog-post-6
 
-  - tag_slug: blog
-    post_slug: blog-post-7
+- tag_slug: blog
+  post_slug: blog-post-7
 
-  - tag_slug: blog
-    post_slug: blog-post-8
+- tag_slug: blog
+  post_slug: blog-post-8
 
 # BLOG -> A cada Post se le asigna una categoria especifica
-  - tag_slug: tema1
-    post_slug: blog-post-1
+- tag_slug: tema1
+  post_slug: blog-post-1
 
-  - tag_slug: tema1
-    post_slug: blog-post-2
+- tag_slug: tema1
+  post_slug: blog-post-2
 
-  - tag_slug: tema1
-    post_slug: blog-post-3
+- tag_slug: tema1
+  post_slug: blog-post-3
 
-  - tag_slug: tema2
-    post_slug: blog-post-4
+- tag_slug: tema2
+  post_slug: blog-post-4
 
-  - tag_slug: tema2
-    post_slug: blog-post-5
+- tag_slug: tema2
+  post_slug: blog-post-5
 
-  - tag_slug: tema3
-    post_slug: blog-post-6
+- tag_slug: tema3
+  post_slug: blog-post-6
 
-  - tag_slug: tema3
-    post_slug: blog-post-7
+- tag_slug: tema3
+  post_slug: blog-post-7
 
-  - tag_slug: tema4
-    post_slug: blog-post-8
+- tag_slug: tema4
+  post_slug: blog-post-8

@@ -1,12 +1,15 @@
 .main-phrase
-  height: 150px
+  height: 250px
   width: 100%
   text-align: center
   padding-right: 20%
   @media only screen and (max-width:$device-sm)
+    height: 200px
     padding-right: 25%
   @media only screen and (max-width:$device-xs)
     padding-right: 30%
+    margin-top: -26px
+    height: 150px
   &-container
     width: 80%
     height: 40%
@@ -19,8 +22,10 @@
       font-size: 1.8em
       top: 15%
     @media only screen and (max-width:$device-xs)
-      font-size: 1.2em
-      top: 5%
+      font-size: 16px
+      top: 20%
+    @media only screen and (max-width:$device-xxs)
+      font-size: 14px
     p
       text-align: left
       em

@@ -1,36 +1,13 @@
-<div class="container-section">
-  <div class="informative-section {{#is "index"}} informative-section-index {{/is}}">
-    <div class="information-cima">
-      {{#get "posts" filter="slug:informacion" as |images|}}
-        {{#foreach images}}
-            <div class="section">
-              <div class="title section-informative">
-                <div>{{title}}</div>
-              </div>
-              <div class="content-informative">{{content}}</div>
-            </div>
-        {{/foreach}}
-      {{/get}}
-    </div>
-    <div class="redesSociales">
-      <div class="row social-section">
-        <div class="textFooter-title col-md-3 col-sm-3 col-xs-3 ">Síguenos:</div>
-        <div class="col-md-3 col-sm-3 col-xs-3 ">
-          <a href="#" class="thumbnail ">
-            <img src="{{asset 'img/icono_face.png'}}" alt="facebook">
-          </a>
+<div class="informative-section">
+  <div class="information-cima">
+    {{#get "posts" filter="slug:informacion" as |informationPosts|}}
+      {{#foreach informationPosts}}
+        <div class="title section-informative">
+          <div>{{title}}</div>
         </div>
-        <div class="col-md-3 col-sm-3 col-xs-3 ">
-          <a href="#" class="thumbnail ">
-            <img src="{{asset 'img/icono_rss.png'}}" alt="rss">
-          </a>
-        </div>
-        <div class="col-md-3 col-sm-3 col-xs-3 ">
-          <a href="#" class="thumbnail ">
-            <img src="{{asset 'img/icono_twitter.png'}}" alt="twitter">
-          </a>
-        </div>
-      </div>
-    </div>
+        <div class="content-informative">{{content}}</div>
+      {{/foreach}}
+    {{/get}}
+    {{> "redes-sociales"}}
   </div>
 </div>

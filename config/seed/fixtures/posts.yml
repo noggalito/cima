@@ -24,8 +24,8 @@
   title: "Conoce"
   slug: conoce
   image: /default/imagen_01.png
-  markdown: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.
-  html: <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.</p>
+  markdown: <%= lipsum_small %>
+  html: <p><%= lipsum_small %></p>
 
 # Aliados -> Lista de aliados
 - uuid: <%= uuid %>
@@ -94,8 +94,8 @@
   title: "Descripción"
   slug: descripcion
   image: /default/imagen_01.png
-  markdown: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.
-  html: <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.</p>
+  markdown: <%= lipsum_small %>
+  html: <p><%= lipsum_small %></p>
 
 # CIMA -> Categoria 'Equipo'
 - uuid: <%= uuid %>
@@ -109,8 +109,8 @@
   title: "Equipo"
   slug: equipo
   image: /default/imagen_02.png
-  markdown: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.
-  html: <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.</p>
+  markdown: <%= lipsum_small %>
+  html: <p><%= lipsum_small %></p>
 
 # CIMA -> Lista de Equipos
 - uuid: <%= uuid %>
@@ -121,7 +121,7 @@
   featured: false
   language: en_US
   status: published
-  title: "Team Name"
+  title: "Persona Uno"
   slug: equipo1
   image: /default/equipo1.jpg
   markdown: Describir el perfil profesional
@@ -135,7 +135,7 @@
   featured: false
   language: en_US
   status: published
-  title: "Team Name"
+  title: "Persona Dos"
   slug: equipo2
   image: /default/equipo2.jpg
   markdown: Describir el perfil profesional
@@ -149,7 +149,7 @@
   featured: false
   language: en_US
   status: published
-  title: "Team Name"
+  title: "Persona Tres"
   slug: equipo3
   image: /default/equipo3.jpg
   markdown: Describir el perfil profesional
@@ -167,8 +167,22 @@
   title: "Experiencia"
   slug: experiencia
   image: /default/imagen_03.png
-  markdown: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.
-  html: <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.</p>
+  markdown: <%= lipsum_small %>
+  html: <p><%= lipsum_small %></p>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Tenemos mucha experiencia"
+  slug: mucha-experiencia
+  image: /default/equipo2.jpg
+  markdown: <%= lipsum_small %>
+  html: <p><%= lipsum_small %></p>
 
 # CIMA -> Categoria 'Responsabilidad Social'
 - uuid: <%= uuid %>
@@ -182,8 +196,22 @@
   title: "Responsabilidad Social"
   slug: responsabilidad-social
   image: /default/imagen_04.png
-  markdown: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.
-  html: <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.</p>
+  markdown: <%= lipsum_small %>
+  html: <p><%= lipsum_small %></p>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Nuestra responsabilidad social"
+  slug: nuestra-responsabilidad-social
+  image: /default/equipo1.jpg
+  markdown: <%= lipsum_small %>
+  html: <p><%= lipsum_small %></p>
 
 # CIMA -> Categoria 'Trabaja con Nosotros'
 - uuid: <%= uuid %>
@@ -197,8 +225,22 @@
   title: "Trabaja con Nosotros"
   slug: trabaja-con-nosotros
   image: /default/imagen_05.png
-  markdown: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.
-  html: <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.</p>
+  markdown: <%= lipsum_small %>
+  html: <p><%= lipsum_small %></p>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Estamos contratando"
+  slug: estamos-contratando
+  image: /default/equipo2.jpg
+  markdown: <%= lipsum_small %>
+  html: <p><%= lipsum_small %></p>
 
 # CarruselPrincipal
 
@@ -332,8 +374,224 @@
   title: "Edúcate"
   slug: educate
   image: /default/imagen_01.png
-  markdown: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.
-  html: <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.</p>
+  markdown: <%= lipsum_small %>
+  html: <p><%= lipsum_small %></p>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Online"
+  slug: educate-online
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Gestión de riesgos laborales"
+  slug: gestion-de-riesgos-laborales
+  image: /default/equipo1.jpg
+  markdown: <%= lipsum_small %>
+  html: <p><%= lipsum_small %></p>
+  meta_description: <%= lipsum_small %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Manejo de retroexcavadora"
+  slug: manejo-de-retroexcavadora
+  image: /default/equipo2.jpg
+  markdown: <%= lipsum_small %>
+  html: <p><%= lipsum_small %></p>
+  meta_description: <%= lipsum_small %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "A medida"
+  slug: educate-a-medida
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Programa Uno"
+  slug: programa-uno
+  image: /default/equipo3.jpg
+  markdown: <%= lipsum_small %>
+  html: <p><%= lipsum_small %></p>
+  meta_description: <%= lipsum_small %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Consultorías en línea Uno"
+  slug: consultorias-en-linea-uno
+  image: /default/equipo1.jpg
+  markdown: <%= lipsum_small %>
+  html: <p><%= lipsum_small %></p>
+  meta_description: <%= lipsum_small %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Licencia de venta uno"
+  slug: licencia-de-venta-uno
+  image: /default/equipo2.jpg
+  markdown: <%= lipsum_small %>
+  html: <p><%= lipsum_small %></p>
+  meta_description: <%= lipsum_small %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Nuevas clases en línea"
+  slug: nuevas-clases-en-linea
+  image: /default/equipo1.jpg
+  markdown: <%= lipsum_small %>
+  html: <p><%= lipsum_small %></p>
+  meta_description: <%= lipsum_small %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Perforación de minas"
+  slug: perforacion-de-minas
+  image: /default/equipo3.jpg
+  markdown: <%= lipsum_small %>
+  html: <p><%= lipsum_small %></p>
+  meta_description: <%= lipsum_small %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Logística y operaciones"
+  slug: logistica-y-operaciones
+  image: /default/equipo1.jpg
+  markdown: <%= lipsum_small %>
+  html: <p><%= lipsum_small %></p>
+  meta_description: <%= lipsum_small %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Impacto medioambiental de la minería"
+  slug: impacto-medioambiental-de-la-mineria
+  image: /default/equipo3.jpg
+  markdown: <%= lipsum_small %>
+  html: <p><%= lipsum_small %></p>
+  meta_description: <%= lipsum_small %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Programas"
+  slug: educate-programas
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Lo nuevo"
+  slug: educate-lo-nuevo
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "En línea"
+  slug: consultorias-en-linea
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Licencias de venta"
+  slug: licencias-de-venta
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Edúcate a medida"
+  slug: educate-educate-a-medida
+  image: /default/equipo2.jpg
+  markdown: <%= lipsum_small %>
+  html: <p><%= lipsum_small %></p>
+  meta_description: <%= lipsum_small %>
 
 # SERVICIOS -> Categoria 'Consultorías'
 - uuid: <%= uuid %>
@@ -347,8 +605,8 @@
   title: "Consultorías"
   slug: consultorias
   image: /default/imagen_02.png
-  markdown: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.
-  html: <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.</p>
+  markdown: <%= lipsum_small %>
+  html: <p><%= lipsum_small %></p>
 
 # SERVICIOS -> Categoria 'Licencias'
 - uuid: <%= uuid %>
@@ -362,8 +620,8 @@
   title: "Licencias"
   slug: licencias
   image: /default/imagen_02.png
-  markdown: Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.
-  html: <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aeneam massa.</p>
+  markdown: <%= lipsum_small %>
+  html: <p><%= lipsum_small %></p>
 
 # BLOG -> Menu
 - uuid: <%= uuid %>

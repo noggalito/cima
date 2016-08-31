@@ -7,8 +7,7 @@ class Seed
       { url: '/servicios/', label: 'Servicios' },
       { url: '/cima/',    label: 'CIMA' },
       { url: '/aliados/',   label: 'Aliados'},
-      { url: '/tag/blog/',  label: 'Blog' },
-      { url: '/contactos/',   label: 'Contactos'}
+      { url: '/tag/blog/',  label: 'Blog' }
     ]
     DEFAULT_SETTINGS = [
       { key: "activeTheme", value: "cima" },
@@ -16,6 +15,10 @@ class Seed
       { key: "logo",        value: '/default/logo-cima.png' },
       { key: "navigation",  value: DEFAULT_NAVIGATION.to_json }
     ]
+
+    def self.wipe_records!
+      Logger.info "can't wipe", self
+    end
 
     def self.seeds
       DEFAULT_SETTINGS

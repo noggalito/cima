@@ -1,0 +1,12 @@
+<div class="categories-content-posts collapse category-{{@number}}">
+  {{#get "posts" filter="tag:servicios-{{slug}}" as |nested|}}
+    {{#foreach nested}}
+      <h4
+        class="nested-title expand"
+        data-toggle="collapse" data-target="#category-nested-content-{{slug}}"
+        >
+        {{title}}
+      </h4>
+    {{/foreach}}
+  {{/get}}
+</div>

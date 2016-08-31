@@ -25,26 +25,30 @@
 
 # CIMA -> Categoria 'Equipo'
 - hidden: false
-  name: Cima-categoria-equipo
+  name: 'Cima > Equipo'
   slug: cima-categoria-equipo
+  description: 'Cima > Equipo'
   uuid: <%= uuid %>
 
 # CIMA -> Categoria 'Experiencia'
 - hidden: false
-  name: Cima-categoria-experiencia
+  name: 'Cima > Experiencia'
   slug: cima-categoria-experiencia
+  description: 'Cima > Experiencia'
   uuid: <%= uuid %>
 
 # CIMA -> Categoria 'Responsabilidad Social'
 - hidden: false
-  name: Cima-categoria-responsabilidad-social
+  name: 'Cima > Responsabilidad Social'
   slug: cima-categoria-responsabilidad-social
+  description: 'Cima > Responsabilidad Social'
   uuid: <%= uuid %>
 
 # CIMA -> Categoria 'Trabaja con nosotros'
 - hidden: false
-  name: Cima-categoria-trabaja-con-nosotros
+  name: 'Cima > Trabaja con nosotros'
   slug: cima-categoria-trabaja-con-nosotros
+  description: 'Cima > Trabaja con nosotros'
   uuid: <%= uuid %>
 
 # carruselPrincipa
@@ -65,11 +69,65 @@
   slug: servicios-categoria-educate
   uuid: <%= uuid %>
 
-# SERVICIOS -> Categoria 'Consultorías'
 - hidden: false
-  name: servicios-categoria-consultorias
-  slug: servicios-categoria-consultorias
+  name: servicios-educate
+  slug: servicios-educate
+  description: 'Servicios > Edúcate'
   uuid: <%= uuid %>
+
+- hidden: false
+  name: 'Servicios > Edúcate > A medida'
+  slug: servicios-educate-a-medida
+  description: 'Servicios > Edúcate > A medida'
+  uuid: <%= uuid %>
+
+- hidden: false
+  name: 'Servicios > Edúcate > Programas'
+  slug: servicios-educate-programas
+  description: 'Servicios > Edúcate > Programas'
+  uuid: <%= uuid %>
+
+- hidden: false
+  name: 'Servicios > Edúcate > Lo nuevo'
+  slug: servicios-educate-lo-nuevo
+  description: 'Servicios > Edúcate > Lo nuevo'
+  uuid: <%= uuid %>
+
+- hidden: false
+  name: servicios-educate-online
+  slug: servicios-educate-online
+  description: 'Servicios > Edúcate Online'
+  uuid: <%= uuid %>
+
+- hidden: false
+  name: 'Servicios > Consultorías'
+  slug: servicios-consultorias
+  description: 'Servicios > Consultorías'
+  uuid: <%= uuid %>
+
+- hidden: false
+  name: 'Servicios > Consultorías > En línea'
+  slug: servicios-consultorias-en-linea
+  description: 'Servicios > Consultorías > En línea'
+  uuid: <%= uuid %>
+
+- hidden: false
+  name: 'Servicios > Licencias'
+  slug: servicios-licencias
+  description: 'Servicios > Licencias'
+  uuid: <%= uuid %>
+
+- hidden: false
+  name: 'Servicios > Licencias > Licencia de venta'
+  slug: servicios-licencias-de-venta
+  description: 'Servicios > Licencias > Licencia de venta'
+  uuid: <%= uuid %>
+
+# SERVICIOS -> Categoria 'Consultorías'
+# - hidden: false
+#   name: servicios-categoria-consultorias
+#   slug: servicios-categoria-consultorias
+#   uuid: <%= uuid %>
 
 # SERVICIOS -> Categoria 'Licencias'
 - hidden: false

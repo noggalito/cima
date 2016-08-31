@@ -3,10 +3,13 @@
   margin: 0px
   background-color: $gray-light-three
   overflow: hidden
-  height: 200px
+  min-height: 200px
   &-content
     padding-left: 5%
     padding-top: 15px
+    img
+      height: 17px
+      width: 17px
     .title
       font-family: RalewaySemiBold
       font-size: 3em
@@ -22,10 +25,10 @@
       cursor: pointer
       margin-top: 3%
       img
-        content: url("../img/icono_info_visited.png")
+        content: url("../img/icono_info.png")
     .collapsed
       img
-        content: url("../img/icono_info.png")
+        content: url("../img/icono_info_visited.png")
   &-image
     padding: 0px
     background-color: $gray-light-three
@@ -55,3 +58,16 @@
 .common-separator
   color: $white
   height: 30px
+
+.categories-content-posts
+  margin-top: 10px
+  border-top: 1px solid rgba(0,0,0,.1)
+  box-shadow: 0 -1px 0 rgba(255,255,255,.2)
+  .nested-title
+    margin-right: 20px
+    display: inline-block
+    font-family: RalewayLight
+    @media (max-width: $device-sm)
+      display: block
+    &[aria-expanded="true"]
+      color: $blue-dark
