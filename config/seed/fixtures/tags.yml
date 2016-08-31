@@ -130,10 +130,10 @@
 #   uuid: <%= uuid %>
 
 # SERVICIOS -> Categoria 'Licencias'
-- hidden: false
-  name: servicios-categoria-licencias
-  slug: servicios-categoria-licencias
-  uuid: <%= uuid %>
+# - hidden: false
+#   name: servicios-categoria-licencias
+#   slug: servicios-categoria-licencias
+#   uuid: <%= uuid %>
 
 # BLOG
 - hidden: false
