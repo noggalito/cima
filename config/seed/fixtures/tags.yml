@@ -64,10 +64,10 @@
   uuid: <%= uuid %>
 
 # SERVICIOS -> Categoria 'Edúcate'
-- hidden: false
-  name: servicios-categoria-educate
-  slug: servicios-categoria-educate
-  uuid: <%= uuid %>
+# - hidden: false
+#   name: servicios-categoria-educate
+#   slug: servicios-categoria-educate
+#   uuid: <%= uuid %>
 
 - hidden: false
   name: servicios-educate
