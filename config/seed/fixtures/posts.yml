@@ -675,7 +675,7 @@
   published_at: <%= Time.now %>
   page: false
   slug: blog-post-1
-  title: <%= lipsum_small %>
+  title: 'Post 1 <%= lipsum_small %>'
   featured: false
   language: en_US
   status: published
@@ -688,7 +688,7 @@
   published_at: <%= Time.now %>
   page: false
   slug: blog-post-2
-  title: <%= lipsum_small %>
+  title: 'Post 2 <%= lipsum_small %>'
   featured: false
   language: en_US
   status: published
@@ -701,7 +701,7 @@
   published_at: <%= Time.now %>
   page: false
   slug: blog-post-3
-  title: <%= lipsum_small %>
+  title: 'Post 3 <%= lipsum_small %>'
   featured: false
   language: en_US
   status: published
@@ -714,7 +714,7 @@
   published_at: <%= Time.now %>
   page: false
   slug: blog-post-4
-  title: <%= lipsum_small %>
+  title: 'Post 4 <%= lipsum_small %>'
   featured: false
   language: en_US
   status: published
@@ -727,7 +727,7 @@
   published_at: <%= Time.now %>
   page: false
   slug: blog-post-5
-  title: <%= lipsum_small %>
+  title: 'Post 5 <%= lipsum_small %>'
   featured: false
   language: en_US
   status: published
@@ -740,7 +740,7 @@
   published_at: <%= Time.now %>
   page: false
   slug: blog-post-6
-  title: <%= lipsum_small %>
+  title: 'Post 6 <%= lipsum_small %>'
   featured: false
   language: en_US
   status: published
@@ -753,7 +753,7 @@
   published_at: <%= Time.now %>
   page: false
   slug: blog-post-7
-  title: <%= lipsum_small %>
+  title: 'Post 7 <%= lipsum_small %>'
   featured: false
   language: en_US
   status: published
@@ -766,7 +766,7 @@
   published_at: <%= Time.now %>
   page: false
   slug: blog-post-8
-  title: <%= lipsum_small %>
+  title: 'Post 8 <%= lipsum_small %>'
   featured: false
   language: en_US
   status: published
