@@ -121,7 +121,7 @@
   featured: false
   language: en_US
   status: published
-  title: "Team Name"
+  title: "Persona Uno"
   slug: equipo1
   image: /default/equipo1.jpg
   markdown: Describir el perfil profesional
@@ -135,7 +135,7 @@
   featured: false
   language: en_US
   status: published
-  title: "Team Name"
+  title: "Persona Dos"
   slug: equipo2
   image: /default/equipo2.jpg
   markdown: Describir el perfil profesional
@@ -149,7 +149,7 @@
   featured: false
   language: en_US
   status: published
-  title: "Team Name"
+  title: "Persona Tres"
   slug: equipo3
   image: /default/equipo3.jpg
   markdown: Describir el perfil profesional
