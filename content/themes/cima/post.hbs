@@ -1,32 +1,7 @@
 {{#post}}
-  <div class="container">
-    <div class="row">
-      {{#get "posts" filter="tag:servicios-{{slug}}" as |nested|}}
-        {{#foreach nested}}
-          <a class="servicio-view gallery-view col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2" href="#">
-            <div class="img-responsive"
-                 style="background-image: url({{image}});"
-              >
-              <div class="servicio-overlay gallery-overlay">
-                {{#if meta_description}}
-                  <div class="meta">{{meta_description}}</div>
-                {{/if}}
-              </div>
-            </div>
-            <h4 class="text-center title">{{title}}</h4>
-
-            <div class="servicio-expanded-view hidden">
-              <div class="col-sm-8 open-servicio-view">
-                <h1 class="title">{{title}}</h1>
-                <div class="servicio-content">{{content}}</div>
-              </div>
-              <div class="col-sm-4 open-servicio-view">
-                <img src="{{image}}" class="img-responsive" />
-              </div>
-            </div>
-          </a>
-        {{/foreach}}
-      {{/get}}
-    </div>
-  </div>
+  {{#has tag="blog"}}
+    
+  {{else}}
+    {{> "partial-servicio"}}
+  {{/has}}
 {{/post}}
