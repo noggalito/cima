@@ -170,6 +170,20 @@
   markdown: <%= lipsum_small %>
   html: <p><%= lipsum_small %></p>
 
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Tenemos mucha experiencia"
+  slug: mucha-experiencia
+  image: /default/equipo2.jpg
+  markdown: <%= lipsum_small %>
+  html: <p><%= lipsum_small %></p>
+
 # CIMA -> Categoria 'Responsabilidad Social'
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>
@@ -185,6 +199,20 @@
   markdown: <%= lipsum_small %>
   html: <p><%= lipsum_small %></p>
 
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Nuestra responsabilidad social"
+  slug: nuestra-responsabilidad-social
+  image: /default/equipo1.jpg
+  markdown: <%= lipsum_small %>
+  html: <p><%= lipsum_small %></p>
+
 # CIMA -> Categoria 'Trabaja con Nosotros'
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>
@@ -197,6 +225,20 @@
   title: "Trabaja con Nosotros"
   slug: trabaja-con-nosotros
   image: /default/imagen_05.png
+  markdown: <%= lipsum_small %>
+  html: <p><%= lipsum_small %></p>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  title: "Estamos contratando"
+  slug: estamos-contratando
+  image: /default/equipo2.jpg
   markdown: <%= lipsum_small %>
   html: <p><%= lipsum_small %></p>
 

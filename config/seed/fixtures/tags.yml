@@ -25,26 +25,30 @@
 
 # CIMA -> Categoria 'Equipo'
 - hidden: false
-  name: Cima-categoria-equipo
+  name: 'Cima > Equipo'
   slug: cima-categoria-equipo
+  description: 'Cima > Equipo'
   uuid: <%= uuid %>
 
 # CIMA -> Categoria 'Experiencia'
 - hidden: false
-  name: Cima-categoria-experiencia
+  name: 'Cima > Experiencia'
   slug: cima-categoria-experiencia
+  description: 'Cima > Experiencia'
   uuid: <%= uuid %>
 
 # CIMA -> Categoria 'Responsabilidad Social'
 - hidden: false
-  name: Cima-categoria-responsabilidad-social
+  name: 'Cima > Responsabilidad Social'
   slug: cima-categoria-responsabilidad-social
+  description: 'Cima > Responsabilidad Social'
   uuid: <%= uuid %>
 
 # CIMA -> Categoria 'Trabaja con nosotros'
 - hidden: false
-  name: Cima-categoria-trabaja-con-nosotros
+  name: 'Cima > Trabaja con nosotros'
   slug: cima-categoria-trabaja-con-nosotros
+  description: 'Cima > Trabaja con nosotros'
   uuid: <%= uuid %>
 
 # carruselPrincipa

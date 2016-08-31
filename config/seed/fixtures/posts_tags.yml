@@ -34,13 +34,22 @@
 - tag_slug: cima-categoria
   post_slug: experiencia
 
+- tag_slug: cima-categoria-experiencia
+  post_slug: mucha-experiencia
+
 # CIMA -> Categoria 'Responsabilidad Social'
 - tag_slug: cima-categoria
   post_slug: responsabilidad-social
 
+- tag_slug: cima-categoria-responsabilidad-social
+  post_slug: nuestra-responsabilidad-social
+
 # CIMA -> Categoria 'Trabaja con nosotros'
 - tag_slug: cima-categoria
   post_slug: trabaja-con-nosotros
+
+- tag_slug: cima-categoria-trabaja-con-nosotros
+  post_slug: estamos-contratando
 
 # SERVICIOS -> Categoria 'Edúcate'
 - tag_slug: servicios-categoria
