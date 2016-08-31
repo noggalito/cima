@@ -47,8 +47,8 @@ class Seed
 
   def klasses
     [
-      TagsSeed,
       PostsSeed,
+      TagsSeed,
       SettingsSeed,
       PostTagsSeed
     ]
