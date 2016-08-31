@@ -1,0 +1,8 @@
+<div class="recent-posts">
+  <h2>Posts recientes</h2>
+  {{#get "posts" limit="2" include="tags" filter="tag:blog" order="published_at desc" as |posts|}}
+    {{#foreach posts}}
+      {{title}}
+    {{/foreach}}
+  {{/get}}
+</div>

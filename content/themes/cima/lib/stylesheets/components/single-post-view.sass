@@ -8,6 +8,8 @@
     color: $gray-dark-one
     font-family: RalewayLight
     margin: 10px 0
+    & > div
+      padding-left: 0
   .content
     color: $gray-dark-two
     font-family: RalewayRegular
@@ -17,11 +19,27 @@
 
 .other-categories
   margin-top: 50px
+  .divider
+    border-bottom: 1px solid $gray-dark
+    box-shadow: 0 1px 0 $white
+    margin-bottom: 15px
   h2
     color: $gray-dark-two
     font-family: DosisRegular
+  .blog-nav
+    a
+      font-size: 16px
+      padding-left: 0
+      color: $gray-dark-one
+      font-family: RalewayRegular
+      &:hover
+        background-color: transparent
+        color: $blue-dark
+      .glyphicon
+        margin-right: 5px
 
 .searchbox
+  margin-top: 30px
   background-color: $blue-dark
   padding: 10px 0
   input
