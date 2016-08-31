@@ -13,7 +13,19 @@ config = {
     // Configure your URL and mail settings here
     production: {
         url: 'http://cima.ec',
-        mail: {},
+        mail: {
+          from: process.env.SMTP_LOGIN,
+          transport: 'SMTP',
+          options: {
+            host: process.env.SMTP_HOST,
+            port: process.env.SMTP_PORT,
+            secureConnection: process.env.SMTP_SECURE == "true",
+            auth: {
+              user: process.env.SMTP_LOGIN,
+              pass: process.env.SMTP_PASSWORD
+            }
+          }
+        },
         database: {
             client: 'postgres',
             connection: {
