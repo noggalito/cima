@@ -2,7 +2,12 @@
 {{#post}}
   {{#has tag="blog"}}
     {{> cover-page}}
-    {{> body-title title="Blog"}}
+    <div class="row body-title">
+      <div class="body-title-content">
+        <span class="glyphicon glyphicon-play"></span>
+        <a href="/tag/blog"><h3 class="title">Blog</h3></a>
+      </div>
+    </div>
     {{> single-post-view}}
     {{> main-phrase}}
   {{else}}
