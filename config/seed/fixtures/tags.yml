@@ -70,7 +70,7 @@
 #   uuid: <%= uuid %>
 
 - hidden: false
-  name: servicios-educate
+  name: 'Servicios > Edúcate'
   slug: servicios-educate
   description: 'Servicios > Edúcate'
   uuid: <%= uuid %>
@@ -94,9 +94,9 @@
   uuid: <%= uuid %>
 
 - hidden: false
-  name: servicios-educate-online
+  name: 'Servicios > Edúcate > Online'
   slug: servicios-educate-online
-  description: 'Servicios > Edúcate Online'
+  description: 'Servicios > Edúcate > Online'
   uuid: <%= uuid %>
 
 - hidden: false
