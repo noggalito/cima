@@ -7,6 +7,8 @@
     text-align: center
     border-bottom: 0
     margin-bottom: 30px
+    @media (max-width: $device-xs)
+      display: none
     li
       float: none
       display: inline-block
@@ -17,3 +19,35 @@
           color: $blue-dark
           background-color: transparent
           border-color: transparent
+
+.blog-post-in-list
+  margin: 15px 0 25px 0
+  &:hover .gallery-overlay
+    display: block
+  .img-wrapper
+    padding: 5px
+    border-right: 1px solid $white
+    border-bottom: 1px solid $white
+  .content-wrapper
+    padding: 5px 10px
+    border-left: 1px solid $white
+  .img-responsive
+    height: 170px
+    background-size: cover
+    background-repeat: no-repeat
+  .title
+    color: $blue-dark
+    margin: 5px 0
+    font-family: RalewayMedium
+    font-size: 20px
+    line-height: 21px
+  .content
+    font-family: RalewayRegular
+    max-height: 90px
+    overflow: hidden
+    line-height: 18px
+    color: $gray-dark-four
+    margin: 7px 0
+  .pubdate
+    font-family: latoRegular
+    color: $gray-dark-four

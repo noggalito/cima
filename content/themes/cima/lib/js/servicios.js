@@ -22,6 +22,7 @@
     'click',
     expandCategoriesSelector,
     function (e) {
+      // toggle + icon
       $(this).toggleClass('collapsed');
     }
   );

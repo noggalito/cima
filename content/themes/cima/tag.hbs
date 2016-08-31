@@ -5,6 +5,13 @@
   <div class="blog-content-section">
     <div class="container">
       {{> navigation-blog}}
+
+      <div class="row">
+        {{#foreach posts}}
+          {{> blog-post}}
+        {{/foreach}}
+      </div>
+      {{pagination}}
     </div>
   </div>
   {{> main-phrase }}
