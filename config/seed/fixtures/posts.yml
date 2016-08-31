@@ -681,6 +681,7 @@
   status: published
   image: /default/imagen_blog.jpg
   markdown: <%= lipsum %>
+  html: <p><%= lipsum %></p>
 
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>
@@ -694,6 +695,7 @@
   status: published
   image: /default/imagen_blog.jpg
   markdown: <%= lipsum %>
+  html: <p><%= lipsum %></p>
 
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>
@@ -707,6 +709,7 @@
   status: published
   image: /default/imagen_blog.jpg
   markdown: <%= lipsum %>
+  html: <p><%= lipsum %></p>
 
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>
@@ -720,6 +723,7 @@
   status: published
   image: /default/imagen_blog.jpg
   markdown: <%= lipsum %>
+  html: <p><%= lipsum %></p>
 
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>
@@ -733,6 +737,7 @@
   status: published
   image: /default/imagen_blog.jpg
   markdown: <%= lipsum %>
+  html: <p><%= lipsum %></p>
 
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>
@@ -746,6 +751,7 @@
   status: published
   image: /default/imagen_blog.jpg
   markdown: <%= lipsum %>
+  html: <p><%= lipsum %></p>
 
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>
@@ -759,6 +765,7 @@
   status: published
   image: /default/imagen_blog.jpg
   markdown: <%= lipsum %>
+  html: <p><%= lipsum %></p>
 
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>
@@ -772,3 +779,4 @@
   status: published
   image: /default/imagen_blog.jpg
   markdown: <%= lipsum %>
+  html: <p><%= lipsum %></p>
