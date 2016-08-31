@@ -7,6 +7,6 @@ $(document).on(
 
     $(originalEvent.target).html('<h3 class="loading">Cargando...</h3>');
 
-    $(originalEvent.target).load(url);
+    $(originalEvent.target).load(url + ' #partial-servicio');
   }
 );

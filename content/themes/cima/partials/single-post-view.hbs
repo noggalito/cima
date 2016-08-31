@@ -1,0 +1,38 @@
+<div class="blog-content-section">
+  <div class="single-post-view container">
+    <div class="row">
+      <div class="col-md-8 col-sm-8">
+        <h1 class="title">{{title}}</h1>
+        <img src="{{image}}" class="img-responsive" />
+        <div class="figure-legend clearfix">
+          <div class="col-md-3">
+            por: {{#author}}{{name}}{{/author}}
+          </div>
+          <div class="col-md-3">
+            {{date published_at format="D MMMM, YYYY"}}
+          </div>
+          <div class="col-md-3">
+            <!-- comments count -->
+          </div>
+          <div class="col-md-3">
+            <!-- share with SN -->
+          </div>
+        </div>
+        <div class="content">{{content}}</div>
+      </div>
+      <div class="col-md-4 col-sm-4">
+        <div class="searchbox">
+          <form>
+            <input type="search" name="q" value="">
+            <input type="submit" value="Buscar">
+          </form>
+        </div>
+
+        <div class="other-categories">
+          <h2>Categorías</h2>
+          {{> navigation-blog}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,6 +1,10 @@
+{{!< default}}
 {{#post}}
   {{#has tag="blog"}}
-    
+    {{> cover-page}}
+    {{> body-title title="Blog"}}
+    {{> single-post-view}}
+    {{> main-phrase}}
   {{else}}
     {{> "partial-servicio"}}
   {{/has}}
