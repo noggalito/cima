@@ -26,8 +26,8 @@ class Seed
   def run
     db.connect!
     Logger.warn "seeding database for", environment
+    wipe_klasses! if wipe_db?
     klasses.each do |klass|
-      klass.wipe_records! if wipe_db?
       klass.perform_queries
       Logger.success klass
     end
@@ -36,6 +36,12 @@ class Seed
   end
 
   private
+
+  def wipe_klasses!
+    klasses.reverse.each do |klass|
+      klass.wipe_records!
+    end
+  end
 
   def wipe_db?
     ENV["WIPE_DB"]
@@ -47,8 +53,8 @@ class Seed
 
   def klasses
     [
-      PostsSeed,
       TagsSeed,
+      PostsSeed,
       SettingsSeed,
       PostTagsSeed
     ]

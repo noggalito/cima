@@ -12,7 +12,7 @@ config = {
     // When running Ghost in the wild, use the production environment.
     // Configure your URL and mail settings here
     production: {
-        url: 'http://produccion.cima.ec',
+        url: 'http://cima.ec',
         mail: {},
         database: {
             client: 'postgres',
