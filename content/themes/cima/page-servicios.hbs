@@ -42,7 +42,7 @@
             {{#get "posts" filter="tag:servicios-{{slug}}" as |nested|}}
               {{#foreach nested}}
                 <div id="category-nested-content-{{slug}}"
-                     data-slug="{{slug}}"
+                     data-slug="{{url}}"
                      class="collapse servicios-inside-categories-content"
                   >
                   <h3 class="loading">Cargando...</h3>

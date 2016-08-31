@@ -3,7 +3,7 @@ $(document).on(
   function (e, originalEvent) {
     var $currentTarget = $(originalEvent.currentTarget),
         slug = $currentTarget.data("slug"),
-        url = '/' + slug + '/';
+        url = slug;
 
     $(originalEvent.target).html('<h3 class="loading">Cargando...</h3>');
 
