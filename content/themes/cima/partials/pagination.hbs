@@ -1,0 +1,20 @@
+<nav role="navigation">
+  <ul id="posts-pagination" class="pagination">
+    <li>
+      <a href="{{page_url prev}}">
+        <span class="glyphicon glyphicon-triangle-left"></span>
+      </a>
+    </li>
+
+    <li>
+      <a href="{{page_url next}}">
+        <span class="glyphicon glyphicon-triangle-right"></span>
+      </a>
+    </li>
+  </ul>
+
+  <div id="pagination-meta" class="hidden">
+    <div class="total-pages">{{pages}}</div>
+    <div class="current-page">{{page}}</div>
+  </div>
+</nav>

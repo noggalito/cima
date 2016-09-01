@@ -1,5 +1,6 @@
 !function(t){t(".blog-post-content").matchHeight()}(jQuery);
 $(document).ready(function(){$(".carousel-inner .item").filter(":first").addClass("active")});
+!function(){var a="#posts-pagination",t="#pagination-meta";$(document).on("ready",function(){var e=$(a);if(e.length>0)for(var n=parseInt($(t+" .total-pages").html(),10),r=parseInt($(t+" .current-page").html(),10),i=1;i<=n;i++){var o=$("<li />"),l=$("<a />",{text:i,href:"/tag/blog/page/"+i});r==i&&l.attr("disabled","disabled"),o.append(l),o.insertBefore(a+" li:last")}})}();
 $(document).on("cima:willLoadServices",function(a,t){var r=$(t.currentTarget),e=r.data("slug"),i=e;$(t.target).html('<h3 class="loading">Cargando...</h3>'),$(t.target).load(i+" #partial-servicio")});
 !function(){var i=".servicio-expanded-view",n=".servicios-inside-categories-content";$(document).on("click",".servicio-view",function(e){var t=$(this).parents(n),c=t.find(".container");return c.html($(this).find(i).html()),!1})}();
 !function(){var e=".nested-title",n=".service-context",t=".servicios-inside-categories-content",o=".common-categories-content .expand";$(document).on("show.bs.collapse",t,function(o){var i=$(this).parents(n);i.find(t).removeClass("in"),$(e).removeAttr("aria-expanded"),$(document).trigger("cima:willLoadServices",o)}),$(document).on("click",o,function(e){$(this).toggleClass("collapsed")})}();
