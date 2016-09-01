@@ -1,3 +1,4 @@
+!function(){var n=".blog-nav .nav-tabs";$(document).on("ready",function(){$(n+" li a").each(function(){window.location.href==this.href&&$(this).addClass("active")})})}();
 !function(t){t(".blog-post-content").matchHeight()}(jQuery);
 $(document).ready(function(){$(".carousel-inner .item").filter(":first").addClass("active")});
 !function(){var a="#posts-pagination",t="#pagination-meta";$(document).on("ready",function(){var e=$(a);if(e.length>0)for(var n=parseInt($(t+" .total-pages").html(),10),r=parseInt($(t+" .current-page").html(),10),i=1;i<=n;i++){var o=$("<li />"),l=$("<a />",{text:i,href:"/tag/blog/page/"+i});r==i&&l.attr("disabled","disabled"),o.append(l),o.insertBefore(a+" li:last")}})}();
