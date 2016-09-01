@@ -2,12 +2,15 @@
   .title
     color: $blue-dark
     font-family: RalewaySemiBold
+    margin-bottom: 20px
   .img-responsive
     margin: auto
   .figure-legend
     color: $gray-dark-one
     font-family: RalewayLight
     margin: 10px 0
+    @media (min-width: $device-sm)
+      margin: 20px 0
     & > div
       padding-left: 0
   .content
@@ -16,6 +19,8 @@
     font-size: 17px
     line-height: 25px
     margin: 10px 0
+    @media (min-width: $device-sm)
+      margin: 20px 0
 
 .other-categories
   margin-top: 50px
@@ -37,6 +42,26 @@
         color: $blue-dark
       .glyphicon
         margin-right: 5px
+
+.recent-posts
+  margin-top: 40px
+  .divider
+    border-bottom: 1px solid $gray-dark
+    box-shadow: 0 1px 0 $white
+    margin-bottom: 15px
+  h2
+    color: $gray-dark-two
+    font-family: DosisRegular
+  .recent-post
+    &:hover
+      text-decoration: none
+    .img-responsive
+      height: 200px
+      background-size: cover
+    .title
+      color: $gray-dark-two
+      font-family: RalewayRegular
+      font-size: 16px
 
 .searchbox
   margin-top: 30px

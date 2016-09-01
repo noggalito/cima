@@ -1,8 +1,15 @@
 <div class="recent-posts">
-  <h2>Posts recientes</h2>
-  {{#get "posts" limit="2" include="tags" filter="tag:blog" order="published_at desc" as |posts|}}
+  <div class="divider">
+    <h2>Posts recientes</h2>
+  </div>
+  {{#get "posts" limit="2" include="tags" filter="tag:blog+id:-{{id}}" order="published_at desc" as |posts|}}
     {{#foreach posts}}
-      {{title}}
+      <a class="col-sm-5 recent-post" href="{{url}}">
+        <div class="img-responsive"
+             style="background-image: url('{{image}}');"></div>
+        <div class="title">{{title}}</div>
+      </a>
+      <div class="col-sm-1"></div>
     {{/foreach}}
   {{/get}}
 </div>
