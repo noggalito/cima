@@ -53,11 +53,16 @@
     color: $gray-dark-two
     font-family: DosisRegular
   .recent-post
+    @media (max-width: $device-sm)
+      margin-top: 10px
+      padding-left: 0
     &:hover
       text-decoration: none
     .img-responsive
       height: 200px
       background-size: cover
+      @media (max-width: $device-sm)
+        display: none
     .title
       color: $gray-dark-two
       font-family: RalewayRegular
@@ -67,6 +72,8 @@
   margin-top: 30px
   background-color: $blue-dark
   padding: 10px 0
+  @media (max-width: $device-sm)
+    display: inline-block
   input
     border: 1px solid #333
     outline: 0
@@ -75,6 +82,8 @@
       background-color: $yellow
       color: $blue-dark
       padding: 2px 10px 3px 10px
+      @media (max-width: $device-sm)
+        margin-right: 10px
     &[type=search]
       padding-left: 5px
       padding-right: 5px

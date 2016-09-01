@@ -25,7 +25,11 @@
           color: $blue-dark
 
 .blog-post-in-list
-  margin: 15px 0 25px 0
+  margin-top: 15px
+  margin-bottom: 25px
+  @media (min-width: $device-md)
+    margin-left: 0
+    margin-right: 0
   &:hover
     text-decoration: none
     .gallery-overlay
