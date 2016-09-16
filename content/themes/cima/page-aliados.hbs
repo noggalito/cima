@@ -3,7 +3,7 @@
   {{> cover-page}}
   <section class="allies-page">
     {{> body-title}}
-    {{#get "posts" filter="tag:aliados-categoria" as |categoria|}}
+    {{#get "posts" order="title asc" filter="tag:aliados-categoria" as |categoria|}}
       {{#foreach categoria}}
         <div class="common-categories row">
           <div class="common-categories-content col-xs-6 col-md-7">
@@ -19,7 +19,7 @@
           </div>
         </div>
         <div class="common-categories-body allies-toggable-content row collapse" id="category-{{@number}}">
-          {{#get "posts" filter="tag:aliados-categoria-{{slug}}" as |aliado|}}
+          {{#get "posts" order="title asc" filter="tag:aliados-categoria-{{slug}}" as |aliado|}}
             {{#foreach aliado}}
               <div class="col-xs-12 col-md-4 container">
                 <figure class="allies-toggable-content-figure">
