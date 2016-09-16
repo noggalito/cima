@@ -16,7 +16,7 @@ GEM
       tzinfo (~> 1.1)
     arel (6.0.3)
     builder (3.2.2)
-    colorize (0.7.7)
+    colorize (0.8.1)
     i18n (0.7.0)
     json (1.8.3)
     minitest (5.9.0)
@@ -31,9 +31,9 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord (~> 4.2)
-  colorize
+  colorize (~> 0.8)
   pg
   sqlite3
 
 BUNDLED WITH
-   1.11.2
+   1.12.5
