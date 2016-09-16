@@ -16,14 +16,14 @@
                 </div>
                 {{> "category-nested-posts"}}
               </div>
-              <div class="common-categories-image col-xs-6 col-md-5">
-                <img src="{{image}}"
-                  class="img-responsive"/>
+              <div class="common-categories-image-wrapper col-xs-6 col-md-5">
+                <div style="background-image: url({{image}});"
+                     class="common-categories-image img-responsive"></div>
               </div>
             {{else}}
-              <div class="common-categories-image col-xs-6 col-md-5">
-                <img src="{{image}}"
-                  class="img-responsive"/>
+              <div class="common-categories-image-wrapper col-xs-6 col-md-5">
+                <div style="background-image: url({{image}});"
+                     class="common-categories-image img-responsive"></div>
               </div>
               <div class="common-categories-content col-xs-6 col-md-7">
                 <div class="title">{{title}}</div>
