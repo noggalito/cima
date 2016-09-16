@@ -780,3 +780,18 @@
   image: /default/imagen_blog.jpg
   markdown: <%= lipsum %>
   html: <p><%= lipsum %></p>
+
+  # main-cima
+  - uuid: <%= uuid %>
+    created_at: <%= Time.now %>
+    updated_at: <%= Time.now %>
+    published_at: <%= Time.now %>
+    page: false
+    featured: false
+    language: en_US
+    status: published
+    title: "Descripción Cima"
+    slug: cima-main
+    image: /default/icono.png
+    markdown: Este es la descripción de cima
+    html: "<p>Este es la descripción de cima</p>"
