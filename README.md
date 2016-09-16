@@ -4,9 +4,18 @@ built using [ghost](https://ghost.org/)
 
 ## development
 
-```
-$ gulp
-```
+- install packages
+
+  `$ npm install`
+
+- seed database
+
+  `$ ./seed.rb`
+
+- launch server
+
+  `$ gulp`
+
 
 ## deployment
 
