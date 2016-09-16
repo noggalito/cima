@@ -1,3 +1,4 @@
+$(document).on("shown.bs.collapse",".allies-toggable-content",function(){$(".allies-toggable-content-figure").matchHeight()});
 !function(){var n=".blog-nav .nav-tabs";$(document).on("ready",function(){$(n+" li a").each(function(){window.location.href==this.href&&$(this).addClass("active")})})}();
 !function(t){t(".blog-post-content").matchHeight()}(jQuery);
 $(document).ready(function(){$(".carousel-inner .item").filter(":first").addClass("active")});
