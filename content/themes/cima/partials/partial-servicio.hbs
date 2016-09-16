@@ -2,7 +2,7 @@
   <div class="row">
     {{#get "posts" filter="tag:servicios-{{slug}}" as |nested|}}
       {{#foreach nested}}
-        <a class="servicio-view gallery-view col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2" href="#">
+        <div class="servicio-view gallery-view col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2" href="#">
           <div class="img-responsive"
                style="background-image: url({{image}});"
             >
@@ -23,7 +23,7 @@
               <img src="{{image}}" class="img-responsive" />
             </div>
           </div>
-        </a>
+        </div>
       {{/foreach}}
     {{/get}}
   </div>
