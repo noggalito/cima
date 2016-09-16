@@ -8,14 +8,13 @@ built using [ghost](https://ghost.org/)
 
   `$ npm install`
 
-- seed database
-
-  `$ ./seed.rb`
-
-- launch server
+- launch server (and let ghost create the DB)
 
   `$ gulp`
 
+- seed database
+
+  `$ ./seed.rb`
 
 ## deployment
 
