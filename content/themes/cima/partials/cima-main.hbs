@@ -1,10 +1,12 @@
 {{#get "posts" filter="slug:cima-main" as |post|}}
   {{#post}}
     <div class="cima-main">
-      <div class="title-cima">
-        <div>{{title}}</div>
+      <div class="container">
+        <div class="title-cima">
+          <h1>{{title}}</h1>
+        </div>
+        <div class="content-cima">{{content}}</div>
       </div>
-      <div class="content-cima">{{content}}</div>
     </div>
   {{/post}}
 {{/get}}
