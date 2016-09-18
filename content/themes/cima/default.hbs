@@ -20,7 +20,9 @@
 
   <div class="site-wrapper">
     {{{body}}}
-    {{> cima-main}}
+    {{#is "home"}}
+      {{> cima-main}}
+    {{/is}}
     {{> informative-section}}
     {{> main-form}}
   </div>
