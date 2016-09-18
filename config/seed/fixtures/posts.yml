@@ -228,20 +228,6 @@
   markdown: <%= lipsum_small %>
   html: <p><%= lipsum_small %></p>
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  title: "Estamos contratando"
-  slug: estamos-contratando
-  image: /default/equipo2.jpg
-  markdown: <%= lipsum_small %>
-  html: <p><%= lipsum_small %></p>
-
 # CarruselPrincipal
 
 - uuid: <%= uuid %>

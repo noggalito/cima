@@ -44,13 +44,6 @@
   description: 'Cima > Responsabilidad Social'
   uuid: <%= uuid %>
 
-# CIMA -> Categoria 'Trabaja con nosotros'
-- hidden: false
-  name: 'Cima > Trabaja con nosotros'
-  slug: cima-categoria-trabaja-con-nosotros
-  description: 'Cima > Trabaja con nosotros'
-  uuid: <%= uuid %>
-
 # carruselPrincipa
 - hidden: false
   name: carousel-imagen

@@ -1,0 +1,27 @@
+{{#get "posts" filter="slug:trabaja-con-nosotros" as |post|}}
+  {{#post}}
+    <div class="common-categories row">
+      <div class="common-categories-image col-xs-6 col-md-5">
+        <img src="{{image}}"
+          class="img-responsive"/>
+      </div>
+      <div class="common-categories-content col-xs-6 col-md-7">
+        <div class="title">{{title}}</div>
+        <div class="content">{{meta_description}}</div>
+        <div class="expand collapsed" data-toggle="collapse" data-target="#trabaja-con-nosotros">
+          <img class="img-responsive"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="common-categories-body cima-toggable-content collapse work-with-us" id="trabaja-con-nosotros">
+      <div class="form-wrapper">
+        <div class="content">{{content}}</div>
+        {{subscribe_form placeholder="E-mail"
+                         button_class="btn btn-primary"}}
+      </div>
+    </div>
+    <div class="common-separator">
+    </div>
+  {{/post}}
+{{/get}}
