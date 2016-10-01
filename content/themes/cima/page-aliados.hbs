@@ -23,9 +23,13 @@
             {{#foreach aliado}}
               <div class="col-xs-12 col-md-4 container">
                 <figure class="allies-toggable-content-figure">
-                  <img src="{{image}}"
-                    class="img-responsive"
-                    alt="{{title}}"/>
+                  <div class="img-wrapper">
+                    <div class="img-fix">
+                      <img src="{{image}}"
+                        class="img-responsive"
+                        alt="{{title}}"/>
+                    </div>
+                  </div>
                   <div class="title">{{title}}</div>
                   <div class="slogan">{{content}}</div>
                 </figure>
